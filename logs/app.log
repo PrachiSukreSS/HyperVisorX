@@ -1,0 +1,340 @@
+2026-07-11 17:33:28 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-11 17:33:28 | DEBUG    | asyncio:64 | Using selector: EpollSelector
+2026-07-11 17:33:28 | INFO     | app.main:71 | ============================================================
+2026-07-11 17:33:28 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-11 17:33:28 | INFO     | app.main:73 | Debug mode : True
+2026-07-11 17:33:28 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-11 17:33:28 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-11 17:33:28 | INFO     | app.main:76 | ============================================================
+2026-07-11 17:33:31 | INFO     | app.main:152 | → GET /api/v1/health | client=127.0.0.1 | request_id=5195abee-db74-4013-b5b6-069886dce4fd
+2026-07-11 17:33:31 | DEBUG    | app.api.v1.health:73 | Health check requested
+2026-07-11 17:33:31 | INFO     | app.main:163 | ← GET /api/v1/health | status=200 | duration=4.03ms | request_id=5195abee-db74-4013-b5b6-069886dce4fd
+2026-07-11 17:33:31 | INFO     | app.main:152 | → GET /docs | client=127.0.0.1 | request_id=cef37e83-8fd1-4b59-8a19-b072c0c2cf86
+2026-07-11 17:33:31 | INFO     | app.main:163 | ← GET /docs | status=200 | duration=0.63ms | request_id=cef37e83-8fd1-4b59-8a19-b072c0c2cf86
+2026-07-11 17:33:31 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-11 17:33:47 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-11 17:34:35 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-11 17:35:59 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-11 17:38:59 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-11 17:38:59 | DEBUG    | asyncio:64 | Using selector: EpollSelector
+2026-07-11 17:38:59 | INFO     | app.main:71 | ============================================================
+2026-07-11 17:38:59 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-11 17:38:59 | INFO     | app.main:73 | Debug mode : True
+2026-07-11 17:38:59 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-11 17:38:59 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-11 17:38:59 | INFO     | app.main:76 | ============================================================
+2026-07-11 17:39:03 | INFO     | app.main:152 | → GET /api/v1/health | client=127.0.0.1 | request_id=7bbcea3a-4101-42ae-88ab-14b47ef941cc
+2026-07-11 17:39:03 | DEBUG    | app.api.v1.health:73 | Health check requested
+2026-07-11 17:39:03 | INFO     | app.main:163 | ← GET /api/v1/health | status=200 | duration=3.09ms | request_id=7bbcea3a-4101-42ae-88ab-14b47ef941cc
+2026-07-11 17:39:03 | INFO     | app.main:152 | → GET /docs | client=127.0.0.1 | request_id=dcda0ab2-f731-4470-82d1-6c0bd44a2ca4
+2026-07-11 17:39:03 | INFO     | app.main:163 | ← GET /docs | status=200 | duration=0.84ms | request_id=dcda0ab2-f731-4470-82d1-6c0bd44a2ca4
+2026-07-11 17:39:03 | INFO     | app.main:152 | → GET /openapi.json | client=127.0.0.1 | request_id=8034b074-cece-4ef3-8dbc-ad993407a964
+2026-07-11 17:39:03 | INFO     | app.main:163 | ← GET /openapi.json | status=200 | duration=6.49ms | request_id=8034b074-cece-4ef3-8dbc-ad993407a964
+2026-07-11 17:39:03 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-11 17:39:20 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-11 17:39:20 | DEBUG    | asyncio:64 | Using selector: EpollSelector
+2026-07-11 17:39:20 | INFO     | app.main:71 | ============================================================
+2026-07-11 17:39:20 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-11 17:39:20 | INFO     | app.main:73 | Debug mode : True
+2026-07-11 17:39:20 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-11 17:39:20 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-11 17:39:20 | INFO     | app.main:76 | ============================================================
+2026-07-11 17:39:55 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-11 17:40:23 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-11 17:40:23 | DEBUG    | asyncio:64 | Using selector: EpollSelector
+2026-07-11 17:40:23 | INFO     | app.main:71 | ============================================================
+2026-07-11 17:40:23 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-11 17:40:23 | INFO     | app.main:73 | Debug mode : True
+2026-07-11 17:40:23 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-11 17:40:23 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-11 17:40:23 | INFO     | app.main:76 | ============================================================
+2026-07-11 17:40:40 | INFO     | app.main:152 | → GET /api/v1/health | client=127.0.0.1 | request_id=e74ad1fa-5bf7-481f-bd05-e973037031de
+2026-07-11 17:40:40 | DEBUG    | app.api.v1.health:73 | Health check requested
+2026-07-11 17:40:40 | INFO     | app.main:163 | ← GET /api/v1/health | status=200 | duration=3.75ms | request_id=e74ad1fa-5bf7-481f-bd05-e973037031de
+2026-07-11 17:40:40 | INFO     | app.main:152 | → GET /favicon.ico | client=127.0.0.1 | request_id=a0e5ee44-c787-4e1d-8f0d-bf0f32f7b8b4
+2026-07-11 17:40:40 | INFO     | app.main:163 | ← GET /favicon.ico | status=404 | duration=0.81ms | request_id=a0e5ee44-c787-4e1d-8f0d-bf0f32f7b8b4
+2026-07-11 17:40:54 | INFO     | app.main:152 | → GET /docs | client=127.0.0.1 | request_id=6221d7a2-41c8-4027-a2f2-102d0ff8f468
+2026-07-11 17:40:54 | INFO     | app.main:163 | ← GET /docs | status=200 | duration=1.62ms | request_id=6221d7a2-41c8-4027-a2f2-102d0ff8f468
+2026-07-11 17:40:56 | INFO     | app.main:152 | → GET /openapi.json | client=127.0.0.1 | request_id=7deb268d-ba79-4331-845e-733a0c11e744
+2026-07-11 17:40:56 | INFO     | app.main:163 | ← GET /openapi.json | status=200 | duration=9.58ms | request_id=7deb268d-ba79-4331-845e-733a0c11e744
+2026-07-11 17:41:08 | INFO     | app.main:152 | → GET /redoc | client=127.0.0.1 | request_id=f3cde956-b4a0-4662-b0a9-52a602850054
+2026-07-11 17:41:08 | INFO     | app.main:163 | ← GET /redoc | status=200 | duration=4.47ms | request_id=f3cde956-b4a0-4662-b0a9-52a602850054
+2026-07-11 17:41:08 | INFO     | app.main:152 | → GET /openapi.json | client=127.0.0.1 | request_id=a376f050-35be-4968-9b44-bb6b5ebfeb53
+2026-07-11 17:41:08 | INFO     | app.main:163 | ← GET /openapi.json | status=200 | duration=2.16ms | request_id=a376f050-35be-4968-9b44-bb6b5ebfeb53
+2026-07-12 09:08:51 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 09:08:51 | INFO     | app.main:71 | ============================================================
+2026-07-12 09:08:51 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-12 09:08:51 | INFO     | app.main:73 | Debug mode : True
+2026-07-12 09:08:51 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-12 09:08:51 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-12 09:08:51 | INFO     | app.main:76 | ============================================================
+2026-07-12 09:08:57 | INFO     | app.main:152 | → GET / | client=127.0.0.1 | request_id=5ac8c392-2c65-4338-8925-df16001ae656
+2026-07-12 09:08:57 | INFO     | app.main:163 | ← GET / | status=404 | duration=1.56ms | request_id=5ac8c392-2c65-4338-8925-df16001ae656
+2026-07-12 09:08:57 | INFO     | app.main:152 | → GET /favicon.ico | client=127.0.0.1 | request_id=fc2fa838-b120-4d4c-b000-9e859a9d7728
+2026-07-12 09:08:57 | INFO     | app.main:163 | ← GET /favicon.ico | status=404 | duration=0.60ms | request_id=fc2fa838-b120-4d4c-b000-9e859a9d7728
+2026-07-12 09:09:05 | INFO     | app.main:152 | → GET / | client=127.0.0.1 | request_id=7018cf74-0428-409e-b62e-e564feb9b68b
+2026-07-12 09:09:05 | INFO     | app.main:163 | ← GET / | status=404 | duration=0.55ms | request_id=7018cf74-0428-409e-b62e-e564feb9b68b
+2026-07-12 09:10:38 | INFO     | app.main:152 | → GET /doc | client=127.0.0.1 | request_id=2582fdff-01b0-4ef7-bb40-e33dda4dd9b1
+2026-07-12 09:10:38 | INFO     | app.main:163 | ← GET /doc | status=404 | duration=0.70ms | request_id=2582fdff-01b0-4ef7-bb40-e33dda4dd9b1
+2026-07-12 09:10:43 | INFO     | app.main:152 | → GET /docs | client=127.0.0.1 | request_id=7deb07bd-9dce-41fe-907c-a91958ed61fe
+2026-07-12 09:10:43 | INFO     | app.main:163 | ← GET /docs | status=200 | duration=0.52ms | request_id=7deb07bd-9dce-41fe-907c-a91958ed61fe
+2026-07-12 09:10:50 | INFO     | app.main:152 | → GET /openapi.json | client=127.0.0.1 | request_id=802947b1-5124-493b-a096-51502d4faf5d
+2026-07-12 09:10:50 | INFO     | app.main:163 | ← GET /openapi.json | status=200 | duration=4.88ms | request_id=802947b1-5124-493b-a096-51502d4faf5d
+2026-07-12 09:11:21 | INFO     | app.main:152 | → GET /redocs | client=127.0.0.1 | request_id=7024ec6c-4f3f-4903-9da4-c3d489140469
+2026-07-12 09:11:21 | INFO     | app.main:163 | ← GET /redocs | status=404 | duration=0.58ms | request_id=7024ec6c-4f3f-4903-9da4-c3d489140469
+2026-07-12 09:11:33 | INFO     | app.main:152 | → GET /redoc | client=127.0.0.1 | request_id=b58e01fb-1dee-4118-8ad5-86eed6703620
+2026-07-12 09:11:33 | INFO     | app.main:163 | ← GET /redoc | status=200 | duration=0.57ms | request_id=b58e01fb-1dee-4118-8ad5-86eed6703620
+2026-07-12 09:11:34 | INFO     | app.main:152 | → GET /openapi.json | client=127.0.0.1 | request_id=cd026ca2-467f-40a4-8df6-88dddcee450b
+2026-07-12 09:11:34 | INFO     | app.main:163 | ← GET /openapi.json | status=200 | duration=0.69ms | request_id=cd026ca2-467f-40a4-8df6-88dddcee450b
+2026-07-12 09:12:58 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-12 09:12:58 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 09:12:58 | INFO     | app.main:71 | ============================================================
+2026-07-12 09:12:58 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-12 09:12:58 | INFO     | app.main:73 | Debug mode : True
+2026-07-12 09:12:58 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-12 09:12:58 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-12 09:12:58 | INFO     | app.main:76 | ============================================================
+2026-07-12 09:13:14 | INFO     | app.main:152 | → GET / | client=127.0.0.1 | request_id=607ba310-f596-4aa5-85a6-2a0a991a9e1e
+2026-07-12 09:13:14 | INFO     | app.main:163 | ← GET / | status=200 | duration=2.99ms | request_id=607ba310-f596-4aa5-85a6-2a0a991a9e1e
+2026-07-12 09:14:19 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-12 09:14:19 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 09:14:19 | INFO     | app.main:71 | ============================================================
+2026-07-12 09:14:19 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-12 09:14:19 | INFO     | app.main:73 | Debug mode : True
+2026-07-12 09:14:19 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-12 09:14:19 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-12 09:14:19 | INFO     | app.main:76 | ============================================================
+2026-07-12 09:20:07 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-12 09:20:08 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 09:20:08 | INFO     | app.main:71 | ============================================================
+2026-07-12 09:20:08 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-12 09:20:08 | INFO     | app.main:73 | Debug mode : True
+2026-07-12 09:20:08 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-12 09:20:08 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-12 09:20:08 | INFO     | app.main:76 | ============================================================
+2026-07-12 09:22:07 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-12 09:22:07 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 09:22:07 | INFO     | app.main:71 | ============================================================
+2026-07-12 09:22:07 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-12 09:22:07 | INFO     | app.main:73 | Debug mode : True
+2026-07-12 09:22:07 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-12 09:22:07 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-12 09:22:07 | INFO     | app.main:76 | ============================================================
+2026-07-12 09:24:28 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-12 09:24:28 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 09:24:28 | INFO     | app.main:71 | ============================================================
+2026-07-12 09:24:28 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-12 09:24:28 | INFO     | app.main:73 | Debug mode : True
+2026-07-12 09:24:28 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-12 09:24:28 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-12 09:24:28 | INFO     | app.main:76 | ============================================================
+2026-07-12 09:26:56 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-12 09:26:56 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 09:26:56 | INFO     | app.main:71 | ============================================================
+2026-07-12 09:26:56 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-12 09:26:56 | INFO     | app.main:73 | Debug mode : True
+2026-07-12 09:26:56 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-12 09:26:56 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-12 09:26:56 | INFO     | app.main:76 | ============================================================
+2026-07-12 09:28:39 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-12 09:28:40 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 09:28:40 | INFO     | app.main:71 | ============================================================
+2026-07-12 09:28:40 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-12 09:28:40 | INFO     | app.main:73 | Debug mode : True
+2026-07-12 09:28:40 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-12 09:28:40 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-12 09:28:40 | INFO     | app.main:76 | ============================================================
+2026-07-12 09:28:48 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-12 09:28:49 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 09:28:49 | INFO     | app.main:71 | ============================================================
+2026-07-12 09:28:49 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-12 09:28:49 | INFO     | app.main:73 | Debug mode : True
+2026-07-12 09:28:49 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-12 09:28:49 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-12 09:28:49 | INFO     | app.main:76 | ============================================================
+2026-07-12 09:31:03 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-12 09:31:03 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 09:31:03 | INFO     | app.main:71 | ============================================================
+2026-07-12 09:31:03 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-12 09:31:03 | INFO     | app.main:73 | Debug mode : True
+2026-07-12 09:31:03 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-12 09:31:03 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-12 09:31:03 | INFO     | app.main:76 | ============================================================
+2026-07-12 09:44:40 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-12 09:44:41 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 09:44:41 | INFO     | app.main:71 | ============================================================
+2026-07-12 09:44:41 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-12 09:44:41 | INFO     | app.main:73 | Debug mode : True
+2026-07-12 09:44:41 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-12 09:44:41 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-12 09:44:41 | INFO     | app.main:76 | ============================================================
+2026-07-12 10:07:04 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-12 10:07:05 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 10:07:05 | INFO     | app.main:71 | ============================================================
+2026-07-12 10:07:05 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-12 10:07:05 | INFO     | app.main:73 | Debug mode : True
+2026-07-12 10:07:05 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-12 10:07:05 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-12 10:07:05 | INFO     | app.main:76 | ============================================================
+2026-07-12 10:20:22 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-12 10:20:22 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 10:20:22 | INFO     | app.main:71 | ============================================================
+2026-07-12 10:20:22 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-12 10:20:22 | INFO     | app.main:73 | Debug mode : True
+2026-07-12 10:20:22 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-12 10:20:22 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-12 10:20:22 | INFO     | app.main:76 | ============================================================
+2026-07-12 10:21:38 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-12 10:21:39 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 10:21:39 | INFO     | app.main:71 | ============================================================
+2026-07-12 10:21:39 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-12 10:21:39 | INFO     | app.main:73 | Debug mode : True
+2026-07-12 10:21:39 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-12 10:21:39 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-12 10:21:39 | INFO     | app.main:76 | ============================================================
+2026-07-12 10:22:50 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-12 10:22:51 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 10:22:51 | INFO     | app.main:71 | ============================================================
+2026-07-12 10:22:51 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-12 10:22:51 | INFO     | app.main:73 | Debug mode : True
+2026-07-12 10:22:51 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-12 10:22:51 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-12 10:22:51 | INFO     | app.main:76 | ============================================================
+2026-07-12 10:23:03 | INFO     | app.main:152 | → GET /docs | client=127.0.0.1 | request_id=5b7838cc-f493-4148-b5e1-f70e0f5e926c
+2026-07-12 10:23:03 | INFO     | app.main:163 | ← GET /docs | status=200 | duration=0.63ms | request_id=5b7838cc-f493-4148-b5e1-f70e0f5e926c
+2026-07-12 10:23:04 | INFO     | app.main:152 | → GET /openapi.json | client=127.0.0.1 | request_id=df713559-86cd-4d65-96bf-034e81138c61
+2026-07-12 10:23:04 | INFO     | app.main:163 | ← GET /openapi.json | status=200 | duration=19.82ms | request_id=df713559-86cd-4d65-96bf-034e81138c61
+2026-07-12 10:23:58 | INFO     | app.main:152 | → POST /api/v1/auth/register | client=127.0.0.1 | request_id=59e91b73-d6cf-4b03-ae97-2ac9f3e24392
+2026-07-12 10:23:58 | DEBUG    | passlib.handlers.bcrypt:625 | detected 'bcrypt' backend, version '4.0.1'
+2026-07-12 10:23:58 | DEBUG    | passlib.handlers.bcrypt:406 | 'bcrypt' backend lacks $2$ support, enabling workaround
+2026-07-12 10:23:58 | INFO     | app.main:163 | ← POST /api/v1/auth/register | status=201 | duration=263.09ms | request_id=59e91b73-d6cf-4b03-ae97-2ac9f3e24392
+2026-07-12 10:24:06 | INFO     | app.main:152 | → POST /api/v1/auth/register | client=127.0.0.1 | request_id=20c4f99a-33ca-4d2c-a81e-35c5da85a046
+2026-07-12 10:24:06 | INFO     | app.main:163 | ← POST /api/v1/auth/register | status=400 | duration=4.83ms | request_id=20c4f99a-33ca-4d2c-a81e-35c5da85a046
+2026-07-12 10:24:44 | INFO     | app.main:152 | → POST /api/v1/auth/login | client=127.0.0.1 | request_id=410a1327-a1ed-43c4-b3c2-a00d4972d9c2
+2026-07-12 10:24:45 | INFO     | app.main:163 | ← POST /api/v1/auth/login | status=200 | duration=204.37ms | request_id=410a1327-a1ed-43c4-b3c2-a00d4972d9c2
+2026-07-12 10:27:26 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-12 10:27:27 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 10:27:27 | INFO     | app.main:71 | ============================================================
+2026-07-12 10:27:27 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-12 10:27:27 | INFO     | app.main:73 | Debug mode : True
+2026-07-12 10:27:27 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-12 10:27:27 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-12 10:27:27 | INFO     | app.main:76 | ============================================================
+2026-07-12 10:27:48 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-12 10:27:48 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 10:27:48 | INFO     | app.main:71 | ============================================================
+2026-07-12 10:27:48 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-12 10:27:48 | INFO     | app.main:73 | Debug mode : True
+2026-07-12 10:27:48 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-12 10:27:48 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-12 10:27:48 | INFO     | app.main:76 | ============================================================
+2026-07-12 10:28:25 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-12 10:28:26 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 10:28:26 | INFO     | app.main:71 | ============================================================
+2026-07-12 10:28:26 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-12 10:28:26 | INFO     | app.main:73 | Debug mode : True
+2026-07-12 10:28:26 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-12 10:28:26 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-12 10:28:26 | INFO     | app.main:76 | ============================================================
+2026-07-12 10:29:18 | INFO     | app.main:152 | → GET /docs | client=127.0.0.1 | request_id=66032417-7708-49c2-b89e-42d86d8e4f54
+2026-07-12 10:29:18 | INFO     | app.main:163 | ← GET /docs | status=200 | duration=0.50ms | request_id=66032417-7708-49c2-b89e-42d86d8e4f54
+2026-07-12 10:29:18 | INFO     | app.main:152 | → GET /openapi.json | client=127.0.0.1 | request_id=2550e89d-9578-4e06-95ec-ee9c1378a8cd
+2026-07-12 10:29:18 | INFO     | app.main:163 | ← GET /openapi.json | status=200 | duration=20.32ms | request_id=2550e89d-9578-4e06-95ec-ee9c1378a8cd
+2026-07-12 10:30:30 | INFO     | app.main:152 | → GET /api/v1/auth/me | client=127.0.0.1 | request_id=0ecc7ced-8088-4071-b9c9-9e186c0ae097
+2026-07-12 10:30:30 | INFO     | app.main:163 | ← GET /api/v1/auth/me | status=401 | duration=1.02ms | request_id=0ecc7ced-8088-4071-b9c9-9e186c0ae097
+2026-07-12 10:33:06 | INFO     | app.main:152 | → POST /api/v1/auth/login | client=127.0.0.1 | request_id=04ee15c4-1ca0-441d-854d-8213d0c8bad4
+2026-07-12 10:33:06 | INFO     | app.main:163 | ← POST /api/v1/auth/login | status=401 | duration=31.19ms | request_id=04ee15c4-1ca0-441d-854d-8213d0c8bad4
+2026-07-12 10:33:10 | INFO     | app.main:152 | → POST /api/v1/auth/login | client=127.0.0.1 | request_id=62121035-2d00-459f-bcf7-d8ad9f1253bf
+2026-07-12 10:33:10 | INFO     | app.main:163 | ← POST /api/v1/auth/login | status=401 | duration=4.72ms | request_id=62121035-2d00-459f-bcf7-d8ad9f1253bf
+2026-07-12 10:33:56 | INFO     | app.main:152 | → POST /api/v1/auth/login | client=127.0.0.1 | request_id=c52ed36a-6966-49bc-a8bc-1065ad99e556
+2026-07-12 10:33:56 | DEBUG    | passlib.handlers.bcrypt:625 | detected 'bcrypt' backend, version '4.0.1'
+2026-07-12 10:33:56 | DEBUG    | passlib.handlers.bcrypt:406 | 'bcrypt' backend lacks $2$ support, enabling workaround
+2026-07-12 10:33:56 | INFO     | app.main:163 | ← POST /api/v1/auth/login | status=200 | duration=233.57ms | request_id=c52ed36a-6966-49bc-a8bc-1065ad99e556
+2026-07-12 10:34:12 | INFO     | app.main:152 | → GET /.well-known/appspecific/com.chrome.devtools.json | client=127.0.0.1 | request_id=bcdd4952-8838-4fd9-9d4b-88e468ebd31c
+2026-07-12 10:34:12 | INFO     | app.main:163 | ← GET /.well-known/appspecific/com.chrome.devtools.json | status=404 | duration=0.66ms | request_id=bcdd4952-8838-4fd9-9d4b-88e468ebd31c
+2026-07-12 10:37:29 | INFO     | app.main:152 | → GET /api/v1/auth/me | client=127.0.0.1 | request_id=893b116b-eceb-4208-a255-d414c4efc69e
+2026-07-12 10:37:29 | INFO     | app.main:163 | ← GET /api/v1/auth/me | status=401 | duration=1.69ms | request_id=893b116b-eceb-4208-a255-d414c4efc69e
+2026-07-12 10:37:39 | INFO     | app.main:152 | → GET /api/v1/auth/me | client=127.0.0.1 | request_id=6e4a5ef9-3ad2-4e14-9021-369eb217bf98
+2026-07-12 10:37:39 | INFO     | app.main:163 | ← GET /api/v1/auth/me | status=401 | duration=1.72ms | request_id=6e4a5ef9-3ad2-4e14-9021-369eb217bf98
+2026-07-12 10:38:10 | INFO     | app.main:152 | → GET /api/v1/auth/me | client=127.0.0.1 | request_id=056a09c4-1877-4549-8c8f-a0fc08182f8a
+2026-07-12 10:38:10 | INFO     | app.main:163 | ← GET /api/v1/auth/me | status=401 | duration=1.76ms | request_id=056a09c4-1877-4549-8c8f-a0fc08182f8a
+2026-07-12 10:40:14 | INFO     | app.main:152 | → GET /api/v1/auth/me | client=127.0.0.1 | request_id=207166ee-f177-449f-a75a-4afa05bed96f
+2026-07-12 10:40:14 | INFO     | app.main:163 | ← GET /api/v1/auth/me | status=200 | duration=4.66ms | request_id=207166ee-f177-449f-a75a-4afa05bed96f
+2026-07-12 10:42:04 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-12 10:42:04 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 10:42:04 | INFO     | app.main:71 | ============================================================
+2026-07-12 10:42:04 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-12 10:42:04 | INFO     | app.main:73 | Debug mode : True
+2026-07-12 10:42:04 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-12 10:42:04 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-12 10:42:04 | INFO     | app.main:76 | ============================================================
+2026-07-12 10:43:09 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-12 10:57:31 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 10:57:31 | INFO     | app.main:71 | ============================================================
+2026-07-12 10:57:31 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-12 10:57:31 | INFO     | app.main:73 | Debug mode : True
+2026-07-12 10:57:31 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-12 10:57:31 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-12 10:57:31 | INFO     | app.main:76 | ============================================================
+2026-07-12 10:57:50 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-12 10:57:51 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 10:57:51 | INFO     | app.main:71 | ============================================================
+2026-07-12 10:57:51 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-12 10:57:51 | INFO     | app.main:73 | Debug mode : True
+2026-07-12 10:57:51 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-12 10:57:51 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-12 10:57:51 | INFO     | app.main:76 | ============================================================
+2026-07-12 10:58:15 | INFO     | app.main:152 | → GET /docs | client=127.0.0.1 | request_id=c67265fb-9190-4b3f-bfa9-738196e6e1de
+2026-07-12 10:58:15 | INFO     | app.main:163 | ← GET /docs | status=200 | duration=0.62ms | request_id=c67265fb-9190-4b3f-bfa9-738196e6e1de
+2026-07-12 10:58:15 | INFO     | app.main:152 | → GET /openapi.json | client=127.0.0.1 | request_id=a4b0183d-c841-417f-948a-4e3ba4f50aa6
+2026-07-12 10:58:15 | INFO     | app.main:163 | ← GET /openapi.json | status=200 | duration=18.60ms | request_id=a4b0183d-c841-417f-948a-4e3ba4f50aa6
+2026-07-12 11:00:32 | INFO     | app.main:152 | → POST /api/v1/auth/login | client=127.0.0.1 | request_id=97211d48-390c-4ab5-90a1-0e800b0497bf
+2026-07-12 11:00:32 | INFO     | app.main:163 | ← POST /api/v1/auth/login | status=401 | duration=30.86ms | request_id=97211d48-390c-4ab5-90a1-0e800b0497bf
+2026-07-12 11:00:37 | INFO     | app.main:152 | → POST /api/v1/auth/login | client=127.0.0.1 | request_id=b8583721-341b-475f-b872-64ba5fc8f628
+2026-07-12 11:00:37 | INFO     | app.main:163 | ← POST /api/v1/auth/login | status=401 | duration=3.92ms | request_id=b8583721-341b-475f-b872-64ba5fc8f628
+2026-07-12 11:01:50 | INFO     | app.main:152 | → POST /api/v1/auth/login | client=127.0.0.1 | request_id=34807fa9-abdc-499c-a394-9e74a723fad7
+2026-07-12 11:01:50 | DEBUG    | passlib.handlers.bcrypt:625 | detected 'bcrypt' backend, version '4.0.1'
+2026-07-12 11:01:50 | DEBUG    | passlib.handlers.bcrypt:406 | 'bcrypt' backend lacks $2$ support, enabling workaround
+2026-07-12 11:01:50 | INFO     | app.main:163 | ← POST /api/v1/auth/login | status=200 | duration=252.69ms | request_id=34807fa9-abdc-499c-a394-9e74a723fad7
+2026-07-12 11:02:01 | INFO     | app.main:152 | → GET /.well-known/appspecific/com.chrome.devtools.json | client=127.0.0.1 | request_id=f7cca85d-ee5c-4a23-addd-d391cd552ab6
+2026-07-12 11:02:01 | INFO     | app.main:163 | ← GET /.well-known/appspecific/com.chrome.devtools.json | status=404 | duration=0.66ms | request_id=f7cca85d-ee5c-4a23-addd-d391cd552ab6
+2026-07-12 11:03:18 | INFO     | app.main:152 | → GET /api/v1/auth/viewer | client=127.0.0.1 | request_id=36316ad7-0892-4557-a74f-6f6d3a51da7f
+2026-07-12 11:03:18 | INFO     | app.main:163 | ← GET /api/v1/auth/viewer | status=200 | duration=4.80ms | request_id=36316ad7-0892-4557-a74f-6f6d3a51da7f
+2026-07-12 11:03:29 | INFO     | app.main:152 | → GET /api/v1/auth/operator | client=127.0.0.1 | request_id=e755b97d-3bb9-4ee4-8511-f65bdc2c60b4
+2026-07-12 11:03:29 | INFO     | app.main:163 | ← GET /api/v1/auth/operator | status=403 | duration=3.66ms | request_id=e755b97d-3bb9-4ee4-8511-f65bdc2c60b4
+2026-07-12 11:03:41 | INFO     | app.main:152 | → GET /api/v1/auth/admin | client=127.0.0.1 | request_id=9b1d00e2-4afa-4ea9-bd51-d455bf379246
+2026-07-12 11:03:41 | INFO     | app.main:163 | ← GET /api/v1/auth/admin | status=403 | duration=4.87ms | request_id=9b1d00e2-4afa-4ea9-bd51-d455bf379246
+2026-07-12 11:07:37 | INFO     | app.main:152 | → POST /api/v1/auth/login | client=127.0.0.1 | request_id=5c194c29-762a-49eb-add3-230fc8a66e2d
+2026-07-12 11:07:38 | INFO     | app.main:163 | ← POST /api/v1/auth/login | status=200 | duration=215.87ms | request_id=5c194c29-762a-49eb-add3-230fc8a66e2d
+2026-07-12 11:07:39 | INFO     | app.main:152 | → POST /api/v1/auth/login | client=127.0.0.1 | request_id=b0e1e535-38a2-44a3-98a9-c6eaa11ab44f
+2026-07-12 11:07:40 | INFO     | app.main:163 | ← POST /api/v1/auth/login | status=200 | duration=224.15ms | request_id=b0e1e535-38a2-44a3-98a9-c6eaa11ab44f
+2026-07-12 11:08:52 | INFO     | app.main:152 | → GET /api/v1/auth/admin | client=127.0.0.1 | request_id=48562aeb-79da-444e-a51c-1cb5737698c0
+2026-07-12 11:08:52 | INFO     | app.main:163 | ← GET /api/v1/auth/admin | status=200 | duration=4.25ms | request_id=48562aeb-79da-444e-a51c-1cb5737698c0
+2026-07-12 11:08:58 | INFO     | app.main:152 | → GET /api/v1/auth/operator | client=127.0.0.1 | request_id=01cb471d-05cf-49e6-b9d2-239cd699fcd9
+2026-07-12 11:08:58 | INFO     | app.main:163 | ← GET /api/v1/auth/operator | status=200 | duration=3.55ms | request_id=01cb471d-05cf-49e6-b9d2-239cd699fcd9
+2026-07-12 11:09:02 | INFO     | app.main:152 | → GET /api/v1/auth/viewer | client=127.0.0.1 | request_id=a4c3614d-cac9-4cdb-8b69-215b864a0328
+2026-07-12 11:09:02 | INFO     | app.main:163 | ← GET /api/v1/auth/viewer | status=200 | duration=5.47ms | request_id=a4c3614d-cac9-4cdb-8b69-215b864a0328
+2026-07-12 11:18:59 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-12 11:18:59 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 11:18:59 | INFO     | app.main:71 | ============================================================
+2026-07-12 11:18:59 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-12 11:18:59 | INFO     | app.main:73 | Debug mode : True
+2026-07-12 11:18:59 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-12 11:18:59 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-12 11:18:59 | INFO     | app.main:76 | ============================================================
+2026-07-12 11:19:31 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-12 11:19:32 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 11:19:32 | INFO     | app.main:71 | ============================================================
+2026-07-12 11:19:32 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-12 11:19:32 | INFO     | app.main:73 | Debug mode : True
+2026-07-12 11:19:32 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-12 11:19:32 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-12 11:19:32 | INFO     | app.main:76 | ============================================================
+2026-07-12 11:21:48 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-12 11:21:49 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 11:21:49 | INFO     | app.main:71 | ============================================================
+2026-07-12 11:21:49 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-12 11:21:49 | INFO     | app.main:73 | Debug mode : True
+2026-07-12 11:21:49 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-12 11:21:49 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-12 11:21:49 | INFO     | app.main:76 | ============================================================
