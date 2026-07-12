@@ -338,3 +338,1349 @@
 2026-07-12 11:21:49 | INFO     | app.main:74 | API prefix : /api/v1
 2026-07-12 11:21:49 | INFO     | app.main:75 | libvirt URI: qemu:///system
 2026-07-12 11:21:49 | INFO     | app.main:76 | ============================================================
+2026-07-12 11:29:27 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-12 11:29:28 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 11:29:28 | INFO     | app.main:71 | ============================================================
+2026-07-12 11:29:28 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-12 11:29:28 | INFO     | app.main:73 | Debug mode : True
+2026-07-12 11:29:28 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-12 11:29:28 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-12 11:29:28 | INFO     | app.main:76 | ============================================================
+2026-07-12 11:32:13 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-12 11:32:14 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 11:32:14 | INFO     | app.main:71 | ============================================================
+2026-07-12 11:32:14 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-12 11:32:14 | INFO     | app.main:73 | Debug mode : True
+2026-07-12 11:32:14 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-12 11:32:14 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-12 11:32:14 | INFO     | app.main:76 | ============================================================
+2026-07-12 11:32:35 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-12 11:32:35 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 11:32:35 | INFO     | app.main:71 | ============================================================
+2026-07-12 11:32:35 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-12 11:32:35 | INFO     | app.main:73 | Debug mode : True
+2026-07-12 11:32:35 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-12 11:32:35 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-12 11:32:35 | INFO     | app.main:76 | ============================================================
+2026-07-12 11:35:20 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-12 11:35:21 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 11:35:21 | INFO     | app.main:71 | ============================================================
+2026-07-12 11:35:21 | INFO     | app.main:72 | Starting HyperVisorX v0.1.0
+2026-07-12 11:35:21 | INFO     | app.main:73 | Debug mode : True
+2026-07-12 11:35:21 | INFO     | app.main:74 | API prefix : /api/v1
+2026-07-12 11:35:21 | INFO     | app.main:75 | libvirt URI: qemu:///system
+2026-07-12 11:35:21 | INFO     | app.main:76 | ============================================================
+2026-07-12 11:38:50 | INFO     | app.main:81 | Shutting down HyperVisorX …
+2026-07-12 11:38:51 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 11:38:51 | INFO     | app.main:73 | ============================================================
+2026-07-12 11:38:51 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 11:38:51 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 11:38:51 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 11:38:51 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 11:38:51 | INFO     | app.main:78 | ============================================================
+2026-07-12 11:39:48 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 11:39:49 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 11:39:49 | INFO     | app.main:73 | ============================================================
+2026-07-12 11:39:49 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 11:39:49 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 11:39:49 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 11:39:49 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 11:39:49 | INFO     | app.main:78 | ============================================================
+2026-07-12 11:40:04 | INFO     | app.main:154 | → GET /docs | client=127.0.0.1 | request_id=c0719dc8-8415-438f-9776-3b345d43f917
+2026-07-12 11:40:04 | INFO     | app.main:165 | ← GET /docs | status=200 | duration=0.53ms | request_id=c0719dc8-8415-438f-9776-3b345d43f917
+2026-07-12 11:40:04 | INFO     | app.main:154 | → GET /openapi.json | client=127.0.0.1 | request_id=4d8fbd45-088e-4a44-9a3b-e2b42f44dcb0
+2026-07-12 11:40:04 | INFO     | app.main:165 | ← GET /openapi.json | status=200 | duration=28.25ms | request_id=4d8fbd45-088e-4a44-9a3b-e2b42f44dcb0
+2026-07-12 11:40:23 | INFO     | app.main:154 | → GET /api/v1/vms/ | client=127.0.0.1 | request_id=f7575469-ed97-41b6-81c3-a0e8032bb9e0
+2026-07-12 11:40:24 | INFO     | app.main:165 | ← GET /api/v1/vms/ | status=200 | duration=1057.69ms | request_id=f7575469-ed97-41b6-81c3-a0e8032bb9e0
+2026-07-12 11:41:27 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 11:41:28 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 11:41:28 | INFO     | app.main:73 | ============================================================
+2026-07-12 11:41:28 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 11:41:28 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 11:41:28 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 11:41:28 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 11:41:28 | INFO     | app.main:78 | ============================================================
+2026-07-12 11:41:42 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 11:41:42 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 11:41:42 | INFO     | app.main:73 | ============================================================
+2026-07-12 11:41:42 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 11:41:42 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 11:41:42 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 11:41:42 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 11:41:42 | INFO     | app.main:78 | ============================================================
+2026-07-12 11:48:07 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 11:48:07 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 11:48:07 | INFO     | app.main:73 | ============================================================
+2026-07-12 11:48:07 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 11:48:07 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 11:48:07 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 11:48:07 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 11:48:07 | INFO     | app.main:78 | ============================================================
+2026-07-12 11:48:43 | INFO     | app.main:154 | → GET /docs | client=127.0.0.1 | request_id=c024e827-264a-42e3-afda-d0d32b2e0424
+2026-07-12 11:48:43 | INFO     | app.main:165 | ← GET /docs | status=200 | duration=0.76ms | request_id=c024e827-264a-42e3-afda-d0d32b2e0424
+2026-07-12 11:48:44 | INFO     | app.main:154 | → GET /openapi.json | client=127.0.0.1 | request_id=cbfd12f5-b2d6-474e-b8b8-8ab28637e5a5
+2026-07-12 11:48:44 | INFO     | app.main:165 | ← GET /openapi.json | status=200 | duration=21.40ms | request_id=cbfd12f5-b2d6-474e-b8b8-8ab28637e5a5
+2026-07-12 11:50:37 | INFO     | app.main:154 | → POST /api/v1/vms/rhel-control/start | client=127.0.0.1 | request_id=ceeffaf7-e864-4fb6-b116-98d3ae8e55e6
+2026-07-12 11:50:37 | ERROR    | app.main:195 | Unhandled exception on POST /api/v1/vms/rhel-control/start
+Traceback (most recent call last):
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/main.py", line 162, in request_logging_middleware
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 96, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 154, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 2683, in app
+    await route.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1753, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 2738, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1773, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1264, in handle
+    await app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 150, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 136, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 690, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 346, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2596, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1029, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/routers/vm.py", line 22, in start_vm
+    return service.start_vm(vm_name)
+       ^^^^^^^^^^^^^^^^
+AttributeError: 'VMService' object has no attribute 'start_vm'
+2026-07-12 12:11:48 | INFO     | app.main:154 | → GET /docs | client=127.0.0.1 | request_id=188e7ac7-26ae-4539-8afb-f19f270db646
+2026-07-12 12:11:48 | INFO     | app.main:165 | ← GET /docs | status=200 | duration=0.90ms | request_id=188e7ac7-26ae-4539-8afb-f19f270db646
+2026-07-12 12:11:48 | INFO     | app.main:154 | → GET /openapi.json | client=127.0.0.1 | request_id=e9f9fa4b-ddbd-40de-8294-46978959955b
+2026-07-12 12:11:48 | INFO     | app.main:165 | ← GET /openapi.json | status=200 | duration=0.82ms | request_id=e9f9fa4b-ddbd-40de-8294-46978959955b
+2026-07-12 12:12:03 | INFO     | app.main:154 | → POST /api/v1/vms/rhel-control/start | client=127.0.0.1 | request_id=2386b294-b6fc-4e48-a62c-19af82d534ca
+2026-07-12 12:12:03 | ERROR    | app.main:195 | Unhandled exception on POST /api/v1/vms/rhel-control/start
+Traceback (most recent call last):
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/main.py", line 162, in request_logging_middleware
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 96, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 154, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 2683, in app
+    await route.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1753, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 2738, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1773, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1264, in handle
+    await app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 150, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 136, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 690, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 346, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2596, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1029, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/routers/vm.py", line 22, in start_vm
+    return service.start_vm(vm_name)
+       ^^^^^^^^^^^^^^^^
+AttributeError: 'VMService' object has no attribute 'start_vm'
+2026-07-12 12:12:21 | INFO     | app.main:154 | → POST /api/v1/vms/rhel-control/start | client=127.0.0.1 | request_id=cff14ef3-e57f-4657-87ca-6e79445b8619
+2026-07-12 12:12:21 | ERROR    | app.main:195 | Unhandled exception on POST /api/v1/vms/rhel-control/start
+Traceback (most recent call last):
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/main.py", line 162, in request_logging_middleware
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 96, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 154, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 2683, in app
+    await route.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1753, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 2738, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1773, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1264, in handle
+    await app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 150, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 136, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 690, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 346, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2596, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1029, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/routers/vm.py", line 22, in start_vm
+    return service.start_vm(vm_name)
+       ^^^^^^^^^^^^^^^^
+AttributeError: 'VMService' object has no attribute 'start_vm'
+2026-07-12 12:12:44 | INFO     | app.main:154 | → GET /docs | client=127.0.0.1 | request_id=089a7af6-a254-494f-aa5e-6b017740a150
+2026-07-12 12:12:44 | INFO     | app.main:165 | ← GET /docs | status=200 | duration=0.52ms | request_id=089a7af6-a254-494f-aa5e-6b017740a150
+2026-07-12 12:12:44 | INFO     | app.main:154 | → GET /openapi.json | client=127.0.0.1 | request_id=a0c61438-5fb8-4a44-9a89-6875fdca9d9e
+2026-07-12 12:12:44 | INFO     | app.main:165 | ← GET /openapi.json | status=200 | duration=0.72ms | request_id=a0c61438-5fb8-4a44-9a89-6875fdca9d9e
+2026-07-12 12:12:56 | INFO     | app.main:154 | → POST /api/v1/vms/rhel-control/start | client=127.0.0.1 | request_id=8bca0b71-a024-4b38-a6fa-94a8d7e22c9c
+2026-07-12 12:12:57 | ERROR    | app.main:195 | Unhandled exception on POST /api/v1/vms/rhel-control/start
+Traceback (most recent call last):
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/main.py", line 162, in request_logging_middleware
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 96, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 154, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 2683, in app
+    await route.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1753, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 2738, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1773, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1264, in handle
+    await app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 150, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 136, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 690, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 346, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2596, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1029, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/routers/vm.py", line 22, in start_vm
+    return service.start_vm(vm_name)
+       ^^^^^^^^^^^^^^^^
+AttributeError: 'VMService' object has no attribute 'start_vm'
+2026-07-12 12:13:32 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 12:13:32 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 12:13:32 | INFO     | app.main:73 | ============================================================
+2026-07-12 12:13:32 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 12:13:32 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 12:13:32 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 12:13:32 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 12:13:32 | INFO     | app.main:78 | ============================================================
+2026-07-12 12:13:46 | INFO     | app.main:154 | → GET /docs | client=127.0.0.1 | request_id=c0d8745d-842f-437e-bff8-bc745dd09812
+2026-07-12 12:13:46 | INFO     | app.main:165 | ← GET /docs | status=200 | duration=0.49ms | request_id=c0d8745d-842f-437e-bff8-bc745dd09812
+2026-07-12 12:13:46 | INFO     | app.main:154 | → GET /openapi.json | client=127.0.0.1 | request_id=1efecd0b-cd78-4dc2-93ff-af7e1af117fe
+2026-07-12 12:13:46 | INFO     | app.main:165 | ← GET /openapi.json | status=200 | duration=23.68ms | request_id=1efecd0b-cd78-4dc2-93ff-af7e1af117fe
+2026-07-12 12:13:58 | INFO     | app.main:154 | → POST /api/v1/vms/rhel-control/start | client=127.0.0.1 | request_id=8a927e05-d0eb-4e61-a50e-ea3a975eeaf2
+2026-07-12 12:13:58 | ERROR    | app.main:195 | Unhandled exception on POST /api/v1/vms/rhel-control/start
+Traceback (most recent call last):
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/main.py", line 162, in request_logging_middleware
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 96, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 154, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 2683, in app
+    await route.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1753, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 2738, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1773, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1264, in handle
+    await app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 150, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 136, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 690, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 346, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2596, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1029, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/routers/vm.py", line 22, in start_vm
+    return service.start_vm(vm_name)
+       ^^^^^^^^^^^^^^^^
+AttributeError: 'VMService' object has no attribute 'start_vm'
+2026-07-12 12:21:49 | INFO     | app.main:154 | → GET /docs | client=127.0.0.1 | request_id=871bf2af-6896-4073-aa92-e72dc7ca212f
+2026-07-12 12:21:49 | INFO     | app.main:165 | ← GET /docs | status=200 | duration=0.54ms | request_id=871bf2af-6896-4073-aa92-e72dc7ca212f
+2026-07-12 12:21:49 | INFO     | app.main:154 | → GET /openapi.json | client=127.0.0.1 | request_id=4977bf1e-bc6c-4c34-a2fe-c65421b2ff96
+2026-07-12 12:21:49 | INFO     | app.main:165 | ← GET /openapi.json | status=200 | duration=0.72ms | request_id=4977bf1e-bc6c-4c34-a2fe-c65421b2ff96
+2026-07-12 12:22:08 | INFO     | app.main:154 | → POST /api/v1/vms/rhel-control/start | client=127.0.0.1 | request_id=947f79fb-764d-454e-b7e2-745c915c2fab
+2026-07-12 12:22:08 | ERROR    | app.main:195 | Unhandled exception on POST /api/v1/vms/rhel-control/start
+Traceback (most recent call last):
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/main.py", line 162, in request_logging_middleware
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 96, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 154, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 2683, in app
+    await route.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1753, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 2738, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1773, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1264, in handle
+    await app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 150, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 136, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 690, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 346, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2596, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1029, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/routers/vm.py", line 22, in start_vm
+    return service.start_vm(vm_name)
+       ^^^^^^^^^^^^^^^^
+AttributeError: 'VMService' object has no attribute 'start_vm'
+2026-07-12 12:25:03 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 12:25:03 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 12:25:03 | INFO     | app.main:73 | ============================================================
+2026-07-12 12:25:03 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 12:25:03 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 12:25:03 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 12:25:03 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 12:25:03 | INFO     | app.main:78 | ============================================================
+2026-07-12 12:25:30 | INFO     | app.main:154 | → GET /docs | client=127.0.0.1 | request_id=26a76bc2-e6dd-4428-81de-e2b0f86cab10
+2026-07-12 12:25:30 | INFO     | app.main:165 | ← GET /docs | status=200 | duration=0.55ms | request_id=26a76bc2-e6dd-4428-81de-e2b0f86cab10
+2026-07-12 12:25:30 | INFO     | app.main:154 | → GET /openapi.json | client=127.0.0.1 | request_id=b3e340b5-55a5-4484-a591-2de2084c536a
+2026-07-12 12:25:30 | INFO     | app.main:165 | ← GET /openapi.json | status=200 | duration=26.80ms | request_id=b3e340b5-55a5-4484-a591-2de2084c536a
+2026-07-12 12:25:42 | INFO     | app.main:154 | → POST /api/v1/vms/rhel-control/start | client=127.0.0.1 | request_id=deb751d9-25a1-4d26-b74c-2e327f641ca7
+2026-07-12 12:25:42 | ERROR    | app.main:195 | Unhandled exception on POST /api/v1/vms/rhel-control/start
+Traceback (most recent call last):
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/main.py", line 162, in request_logging_middleware
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 96, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 154, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 2683, in app
+    await route.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1753, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 2738, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1773, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1264, in handle
+    await app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 150, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 136, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 690, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 346, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2596, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1029, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/routers/vm.py", line 22, in start_vm
+    return service.start_vm(vm_name)
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/services/vm_service.py", line 49, in start_vm
+    manager.start_vm(vm_name)
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'VirtualMachineManager' object has no attribute 'start_vm'
+2026-07-12 12:25:54 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 12:25:54 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 12:25:54 | INFO     | app.main:73 | ============================================================
+2026-07-12 12:25:54 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 12:25:54 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 12:25:54 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 12:25:54 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 12:25:54 | INFO     | app.main:78 | ============================================================
+2026-07-12 12:26:02 | INFO     | app.main:154 | → GET /docs | client=127.0.0.1 | request_id=ff4163e1-64fb-4f04-bc19-c19eecd888e6
+2026-07-12 12:26:02 | INFO     | app.main:165 | ← GET /docs | status=200 | duration=0.58ms | request_id=ff4163e1-64fb-4f04-bc19-c19eecd888e6
+2026-07-12 12:26:02 | INFO     | app.main:154 | → GET /openapi.json | client=127.0.0.1 | request_id=fae12615-02c7-42c1-96b8-ecea44a2a447
+2026-07-12 12:26:02 | INFO     | app.main:165 | ← GET /openapi.json | status=200 | duration=27.56ms | request_id=fae12615-02c7-42c1-96b8-ecea44a2a447
+2026-07-12 12:26:14 | INFO     | app.main:154 | → POST /api/v1/vms/rhel-control/start | client=127.0.0.1 | request_id=53c3afb9-81bf-41e6-b7b8-aa22fbc92307
+2026-07-12 12:26:14 | ERROR    | app.main:195 | Unhandled exception on POST /api/v1/vms/rhel-control/start
+Traceback (most recent call last):
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/main.py", line 162, in request_logging_middleware
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 96, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 154, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 2683, in app
+    await route.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1753, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 2738, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1773, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1264, in handle
+    await app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 150, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 136, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 690, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 346, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2596, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1029, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/routers/vm.py", line 22, in start_vm
+    return service.start_vm(vm_name)
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/services/vm_service.py", line 49, in start_vm
+    manager.start_vm(vm_name)
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'VirtualMachineManager' object has no attribute 'start_vm'
+2026-07-12 12:28:42 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 12:28:43 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 12:28:43 | INFO     | app.main:73 | ============================================================
+2026-07-12 12:28:43 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 12:28:43 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 12:28:43 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 12:28:43 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 12:28:43 | INFO     | app.main:78 | ============================================================
+2026-07-12 12:28:54 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 12:28:55 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 12:28:55 | INFO     | app.main:73 | ============================================================
+2026-07-12 12:28:55 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 12:28:55 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 12:28:55 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 12:28:55 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 12:28:55 | INFO     | app.main:78 | ============================================================
+2026-07-12 12:29:01 | INFO     | app.main:154 | → GET /docs | client=127.0.0.1 | request_id=049b9689-2faa-4e25-8dc1-ff8447abe4cc
+2026-07-12 12:29:01 | INFO     | app.main:165 | ← GET /docs | status=200 | duration=0.68ms | request_id=049b9689-2faa-4e25-8dc1-ff8447abe4cc
+2026-07-12 12:29:01 | INFO     | app.main:154 | → GET /openapi.json | client=127.0.0.1 | request_id=34071d9a-4be9-4d79-bc4b-8833f264f229
+2026-07-12 12:29:01 | INFO     | app.main:165 | ← GET /openapi.json | status=200 | duration=24.14ms | request_id=34071d9a-4be9-4d79-bc4b-8833f264f229
+2026-07-12 12:29:11 | INFO     | app.main:154 | → POST /api/v1/vms/rhel-control/start | client=127.0.0.1 | request_id=5645d729-a392-47a7-9a4d-5de261fdbab7
+2026-07-12 12:29:11 | INFO     | app.main:165 | ← POST /api/v1/vms/rhel-control/start | status=200 | duration=771.65ms | request_id=5645d729-a392-47a7-9a4d-5de261fdbab7
+2026-07-12 12:31:16 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 12:31:17 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 12:31:17 | INFO     | app.main:73 | ============================================================
+2026-07-12 12:31:17 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 12:31:17 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 12:31:17 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 12:31:17 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 12:31:17 | INFO     | app.main:78 | ============================================================
+2026-07-12 12:31:41 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 12:31:42 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 12:31:42 | INFO     | app.main:73 | ============================================================
+2026-07-12 12:31:42 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 12:31:42 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 12:31:42 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 12:31:42 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 12:31:42 | INFO     | app.main:78 | ============================================================
+2026-07-12 12:32:15 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 12:32:15 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 12:32:15 | INFO     | app.main:73 | ============================================================
+2026-07-12 12:32:15 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 12:32:15 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 12:32:15 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 12:32:15 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 12:32:15 | INFO     | app.main:78 | ============================================================
+2026-07-12 12:32:24 | INFO     | app.main:154 | → GET /docs | client=127.0.0.1 | request_id=aa2602f0-2117-4c15-abf5-555304cfa4de
+2026-07-12 12:32:24 | INFO     | app.main:165 | ← GET /docs | status=200 | duration=0.73ms | request_id=aa2602f0-2117-4c15-abf5-555304cfa4de
+2026-07-12 12:32:24 | INFO     | app.main:154 | → GET /openapi.json | client=127.0.0.1 | request_id=4b24755b-d33a-4ea4-b377-2a571beef6ff
+2026-07-12 12:32:24 | INFO     | app.main:165 | ← GET /openapi.json | status=200 | duration=25.64ms | request_id=4b24755b-d33a-4ea4-b377-2a571beef6ff
+2026-07-12 12:32:47 | INFO     | app.main:154 | → POST /api/v1/vms/rhel-control/shutdown | client=127.0.0.1 | request_id=86f1bb29-5dbb-4599-bac9-12165174e208
+2026-07-12 12:32:47 | INFO     | app.main:165 | ← POST /api/v1/vms/rhel-control/shutdown | status=200 | duration=64.15ms | request_id=86f1bb29-5dbb-4599-bac9-12165174e208
+2026-07-12 12:33:19 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 12:33:19 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 12:33:19 | INFO     | app.main:73 | ============================================================
+2026-07-12 12:33:19 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 12:33:19 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 12:33:19 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 12:33:19 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 12:33:19 | INFO     | app.main:78 | ============================================================
+2026-07-12 12:34:28 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 12:34:29 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 12:34:29 | INFO     | app.main:73 | ============================================================
+2026-07-12 12:34:29 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 12:34:29 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 12:34:29 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 12:34:29 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 12:34:29 | INFO     | app.main:78 | ============================================================
+2026-07-12 12:34:44 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 12:34:44 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 12:34:44 | INFO     | app.main:73 | ============================================================
+2026-07-12 12:34:44 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 12:34:44 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 12:34:44 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 12:34:44 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 12:34:44 | INFO     | app.main:78 | ============================================================
+2026-07-12 12:35:54 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 12:35:54 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 12:35:54 | INFO     | app.main:73 | ============================================================
+2026-07-12 12:35:54 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 12:35:54 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 12:35:54 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 12:35:54 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 12:35:54 | INFO     | app.main:78 | ============================================================
+2026-07-12 12:36:20 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 12:36:21 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 12:36:21 | INFO     | app.main:73 | ============================================================
+2026-07-12 12:36:21 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 12:36:21 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 12:36:21 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 12:36:21 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 12:36:21 | INFO     | app.main:78 | ============================================================
+2026-07-12 12:36:31 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 12:36:31 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 12:36:31 | INFO     | app.main:73 | ============================================================
+2026-07-12 12:36:31 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 12:36:31 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 12:36:31 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 12:36:31 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 12:36:31 | INFO     | app.main:78 | ============================================================
+2026-07-12 12:36:45 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 12:36:45 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 12:36:45 | INFO     | app.main:73 | ============================================================
+2026-07-12 12:36:45 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 12:36:45 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 12:36:45 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 12:36:45 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 12:36:45 | INFO     | app.main:78 | ============================================================
+2026-07-12 12:37:34 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 12:37:35 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 12:37:35 | INFO     | app.main:73 | ============================================================
+2026-07-12 12:37:35 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 12:37:35 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 12:37:35 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 12:37:35 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 12:37:35 | INFO     | app.main:78 | ============================================================
+2026-07-12 12:40:07 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 12:40:08 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 12:40:08 | INFO     | app.main:73 | ============================================================
+2026-07-12 12:40:08 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 12:40:08 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 12:40:08 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 12:40:08 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 12:40:08 | INFO     | app.main:78 | ============================================================
+2026-07-12 12:40:25 | INFO     | app.main:154 | → GET /docs | client=127.0.0.1 | request_id=c9db467a-d8a1-4a71-8339-b7d3f4017d42
+2026-07-12 12:40:25 | INFO     | app.main:165 | ← GET /docs | status=200 | duration=0.54ms | request_id=c9db467a-d8a1-4a71-8339-b7d3f4017d42
+2026-07-12 12:40:26 | INFO     | app.main:154 | → GET /openapi.json | client=127.0.0.1 | request_id=16753ffb-97af-4484-97c6-c1fdcbf9e17f
+2026-07-12 12:40:26 | INFO     | app.main:165 | ← GET /openapi.json | status=200 | duration=21.28ms | request_id=16753ffb-97af-4484-97c6-c1fdcbf9e17f
+2026-07-12 12:40:42 | INFO     | app.main:154 | → POST /api/v1/vms/rhel-control/shutdown | client=127.0.0.1 | request_id=9cd57c5e-7e97-478b-96c0-81589a385ddb
+2026-07-12 12:40:42 | ERROR    | app.main:195 | Unhandled exception on POST /api/v1/vms/rhel-control/shutdown
+Traceback (most recent call last):
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/libvirt/manager.py", line 44, in shutdown_vm
+    domain.shutdown()
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/libvirt.py", line 2979, in shutdown
+    raise libvirtError('virDomainShutdown() failed')
+libvirt.libvirtError: Requested operation is not valid: domain is not running
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/main.py", line 162, in request_logging_middleware
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 96, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 154, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 2683, in app
+    await route.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1753, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 2738, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1773, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1264, in handle
+    await app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 150, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 136, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 690, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 346, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2596, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1029, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/routers/vm.py", line 27, in shutdown_vm
+    return service.shutdown_vm(vm_name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/services/vm_service.py", line 62, in shutdown_vm
+    manager.shutdown_vm(vm_name)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/libvirt/manager.py", line 48, in shutdown_vm
+    raise Exception(str(e))
+Exception: Requested operation is not valid: domain is not running
+2026-07-12 12:41:28 | INFO     | app.main:154 | → POST /api/v1/vms/rhel-control/shutdown | client=127.0.0.1 | request_id=85caa280-6ceb-4c53-b6e6-f43c5d3d1cc9
+2026-07-12 12:41:28 | INFO     | app.main:165 | ← POST /api/v1/vms/rhel-control/shutdown | status=200 | duration=92.61ms | request_id=85caa280-6ceb-4c53-b6e6-f43c5d3d1cc9
+2026-07-12 12:41:54 | INFO     | app.main:154 | → POST /api/v1/vms/rhel-control/reboot | client=127.0.0.1 | request_id=8b08ffcf-c7eb-4eb8-8eb5-d45afe85ec46
+2026-07-12 12:41:54 | INFO     | app.main:165 | ← POST /api/v1/vms/rhel-control/reboot | status=200 | duration=104.04ms | request_id=8b08ffcf-c7eb-4eb8-8eb5-d45afe85ec46
+2026-07-12 12:42:18 | INFO     | app.main:154 | → POST /api/v1/vms/rhel-control/stop | client=127.0.0.1 | request_id=327c6b12-72b6-49d5-9f7a-7cd0d53ed471
+2026-07-12 12:42:18 | INFO     | app.main:165 | ← POST /api/v1/vms/rhel-control/stop | status=200 | duration=268.95ms | request_id=327c6b12-72b6-49d5-9f7a-7cd0d53ed471
+2026-07-12 12:44:23 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 12:44:24 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 12:44:24 | INFO     | app.main:73 | ============================================================
+2026-07-12 12:44:24 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 12:44:24 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 12:44:24 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 12:44:24 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 12:44:24 | INFO     | app.main:78 | ============================================================
+2026-07-12 12:48:46 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 12:48:47 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 12:48:47 | INFO     | app.main:73 | ============================================================
+2026-07-12 12:48:47 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 12:48:47 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 12:48:47 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 12:48:47 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 12:48:47 | INFO     | app.main:78 | ============================================================
+2026-07-12 12:49:52 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 12:49:53 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 12:49:53 | INFO     | app.main:73 | ============================================================
+2026-07-12 12:49:53 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 12:49:53 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 12:49:53 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 12:49:53 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 12:49:53 | INFO     | app.main:78 | ============================================================
+2026-07-12 12:50:05 | INFO     | app.main:154 | → GET /docs | client=127.0.0.1 | request_id=27609a10-1ce6-4683-a0f9-e4317fbd9e96
+2026-07-12 12:50:05 | INFO     | app.main:165 | ← GET /docs | status=200 | duration=0.68ms | request_id=27609a10-1ce6-4683-a0f9-e4317fbd9e96
+2026-07-12 12:50:05 | INFO     | app.main:154 | → GET /openapi.json | client=127.0.0.1 | request_id=3ecc20ac-6566-4dda-b735-bccd0230b61b
+2026-07-12 12:50:05 | INFO     | app.main:165 | ← GET /openapi.json | status=200 | duration=23.84ms | request_id=3ecc20ac-6566-4dda-b735-bccd0230b61b
+2026-07-12 12:50:37 | INFO     | app.main:154 | → GET /api/v1/vms/rhel-control | client=127.0.0.1 | request_id=73b1d022-60aa-4df0-a1df-31d9f0a9cd86
+2026-07-12 12:50:38 | INFO     | app.main:165 | ← GET /api/v1/vms/rhel-control | status=200 | duration=431.29ms | request_id=73b1d022-60aa-4df0-a1df-31d9f0a9cd86
+2026-07-12 12:54:28 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 13:10:14 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 13:10:14 | INFO     | app.main:73 | ============================================================
+2026-07-12 13:10:14 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 13:10:14 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 13:10:14 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 13:10:14 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 13:10:14 | INFO     | app.main:78 | ============================================================
+2026-07-12 13:10:29 | INFO     | app.main:154 | → GET /docs | client=127.0.0.1 | request_id=19d36518-635c-40f3-9c9e-1b8b26e5a7c1
+2026-07-12 13:10:29 | INFO     | app.main:165 | ← GET /docs | status=200 | duration=1.00ms | request_id=19d36518-635c-40f3-9c9e-1b8b26e5a7c1
+2026-07-12 13:10:29 | INFO     | app.main:154 | → GET /openapi.json | client=127.0.0.1 | request_id=8b79e16d-bcca-4967-8b9c-7e4ea06a9eb8
+2026-07-12 13:10:29 | INFO     | app.main:165 | ← GET /openapi.json | status=200 | duration=30.41ms | request_id=8b79e16d-bcca-4967-8b9c-7e4ea06a9eb8
+2026-07-12 13:11:24 | INFO     | app.main:154 | → GET /api/v1/vms/rhel-control | client=127.0.0.1 | request_id=58d98c6d-c244-460b-b341-4cded4860b90
+2026-07-12 13:11:25 | INFO     | app.main:165 | ← GET /api/v1/vms/rhel-control | status=200 | duration=1101.51ms | request_id=58d98c6d-c244-460b-b341-4cded4860b90
+2026-07-12 13:13:01 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 13:13:01 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 13:13:01 | INFO     | app.main:73 | ============================================================
+2026-07-12 13:13:01 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 13:13:01 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 13:13:01 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 13:13:01 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 13:13:01 | INFO     | app.main:78 | ============================================================
+2026-07-12 13:14:05 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 13:14:06 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 13:14:06 | INFO     | app.main:73 | ============================================================
+2026-07-12 13:14:06 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 13:14:06 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 13:14:06 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 13:14:06 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 13:14:06 | INFO     | app.main:78 | ============================================================
+2026-07-12 13:14:46 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 13:14:47 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 13:14:47 | INFO     | app.main:73 | ============================================================
+2026-07-12 13:14:47 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 13:14:47 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 13:14:47 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 13:14:47 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 13:14:47 | INFO     | app.main:78 | ============================================================
+2026-07-12 13:15:16 | INFO     | app.main:154 | → GET /docs | client=127.0.0.1 | request_id=6b0aef9d-a0e1-401d-8a3d-453fe47c8ea8
+2026-07-12 13:15:16 | INFO     | app.main:165 | ← GET /docs | status=200 | duration=0.52ms | request_id=6b0aef9d-a0e1-401d-8a3d-453fe47c8ea8
+2026-07-12 13:15:16 | INFO     | app.main:154 | → GET /openapi.json | client=127.0.0.1 | request_id=d35a5f30-6f54-4383-96e0-d0a2d69ae077
+2026-07-12 13:15:16 | INFO     | app.main:165 | ← GET /openapi.json | status=200 | duration=26.63ms | request_id=d35a5f30-6f54-4383-96e0-d0a2d69ae077
+2026-07-12 13:15:39 | INFO     | app.main:154 | → POST /api/v1/vms/rhel-control/restart | client=127.0.0.1 | request_id=310ae682-3493-4af4-aabd-62060b262516
+2026-07-12 13:15:40 | ERROR    | app.main:195 | Unhandled exception on POST /api/v1/vms/rhel-control/restart
+Traceback (most recent call last):
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/libvirt/manager.py", line 116, in restart_vm
+    domain.reboot()
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/libvirt.py", line 2389, in reboot
+    raise libvirtError('virDomainReboot() failed')
+libvirt.libvirtError: Requested operation is not valid: domain is not running
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/main.py", line 162, in request_logging_middleware
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 96, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 154, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 2683, in app
+    await route.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1753, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 2738, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1773, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1264, in handle
+    await app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 150, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 136, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 690, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 346, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2596, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1029, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/routers/vm.py", line 54, in restart_vm
+    return service.restart_vm(vm_name)
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/services/vm_service.py", line 128, in restart_vm
+    manager.restart_vm(vm_name)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/libvirt/manager.py", line 119, in restart_vm
+    raise Exception(str(e))
+Exception: Requested operation is not valid: domain is not running
+2026-07-12 13:15:59 | INFO     | app.main:154 | → POST /api/v1/vms/rhel-control/restart | client=127.0.0.1 | request_id=64a55420-b9f9-4706-a5fe-27024473d1bd
+2026-07-12 13:15:59 | INFO     | app.main:165 | ← POST /api/v1/vms/rhel-control/restart | status=200 | duration=4.58ms | request_id=64a55420-b9f9-4706-a5fe-27024473d1bd
+2026-07-12 13:21:27 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 13:21:28 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 13:21:28 | INFO     | app.main:73 | ============================================================
+2026-07-12 13:21:28 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 13:21:28 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 13:21:28 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 13:21:28 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 13:21:28 | INFO     | app.main:78 | ============================================================
+2026-07-12 13:22:33 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 13:22:33 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 13:22:33 | INFO     | app.main:73 | ============================================================
+2026-07-12 13:22:33 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 13:22:33 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 13:22:33 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 13:22:33 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 13:22:33 | INFO     | app.main:78 | ============================================================
+2026-07-12 13:23:33 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 13:23:34 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 13:23:34 | INFO     | app.main:73 | ============================================================
+2026-07-12 13:23:34 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 13:23:34 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 13:23:34 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 13:23:34 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 13:23:34 | INFO     | app.main:78 | ============================================================
+2026-07-12 13:23:56 | INFO     | app.main:154 | → GET /docs | client=127.0.0.1 | request_id=f0b20187-014a-4753-82e4-a8e09e501808
+2026-07-12 13:23:56 | INFO     | app.main:165 | ← GET /docs | status=200 | duration=0.88ms | request_id=f0b20187-014a-4753-82e4-a8e09e501808
+2026-07-12 13:23:56 | INFO     | app.main:154 | → GET /openapi.json | client=127.0.0.1 | request_id=4d464459-95e9-41a9-801c-65280833fce4
+2026-07-12 13:23:56 | INFO     | app.main:165 | ← GET /openapi.json | status=200 | duration=31.45ms | request_id=4d464459-95e9-41a9-801c-65280833fce4
+2026-07-12 13:24:23 | INFO     | app.main:154 | → POST /api/v1/vms/rhel-control/suspend | client=127.0.0.1 | request_id=f77ac64a-4a1f-4fdd-9f39-12bf08cf986e
+2026-07-12 13:24:23 | INFO     | app.main:165 | ← POST /api/v1/vms/rhel-control/suspend | status=200 | duration=9.08ms | request_id=f77ac64a-4a1f-4fdd-9f39-12bf08cf986e
+2026-07-12 13:24:45 | INFO     | app.main:154 | → POST /api/v1/vms/rhel-control/resume | client=127.0.0.1 | request_id=e8b0a7a0-679b-4329-b4fa-0abf3b960cf5
+2026-07-12 13:24:45 | INFO     | app.main:165 | ← POST /api/v1/vms/rhel-control/resume | status=200 | duration=6.50ms | request_id=e8b0a7a0-679b-4329-b4fa-0abf3b960cf5
+2026-07-12 13:25:15 | INFO     | app.main:154 | → POST /api/v1/vms/rhel-control/snapshot/snp_shot1 | client=127.0.0.1 | request_id=1037fe83-7e91-4a61-9e5f-b6694a478258
+2026-07-12 13:25:15 | ERROR    | app.main:195 | Unhandled exception on POST /api/v1/vms/rhel-control/snapshot/snp_shot1
+Traceback (most recent call last):
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/libvirt/manager.py", line 147, in create_snapshot
+    domain.snapshotCreateXML(xml, 0)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/libvirt.py", line 3126, in snapshotCreateXML
+    raise libvirtError('virDomainSnapshotCreateXML() failed')
+libvirt.libvirtError: Operation not supported: internal snapshots of a VM with pflash based firmware are not supported
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/main.py", line 162, in request_logging_middleware
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 96, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 154, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 2683, in app
+    await route.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1753, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 2738, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1773, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1264, in handle
+    await app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 150, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 136, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 690, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 346, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2596, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1029, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/routers/vm.py", line 83, in create_snapshot
+    return service.create_snapshot(vm_name, snapshot_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/services/vm_service.py", line 193, in create_snapshot
+    manager.create_snapshot(vm_name, snapshot_name)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/libvirt/manager.py", line 152, in create_snapshot
+    raise Exception(str(e))
+Exception: Operation not supported: internal snapshots of a VM with pflash based firmware are not supported
+2026-07-12 13:46:45 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 13:46:45 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 13:46:45 | INFO     | app.main:73 | ============================================================
+2026-07-12 13:46:45 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 13:46:45 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 13:46:45 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 13:46:45 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 13:46:45 | INFO     | app.main:78 | ============================================================
+2026-07-12 13:47:01 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 13:47:02 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 13:47:02 | INFO     | app.main:73 | ============================================================
+2026-07-12 13:47:02 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 13:47:02 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 13:47:02 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 13:47:02 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 13:47:02 | INFO     | app.main:78 | ============================================================
+2026-07-12 13:47:06 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 13:47:06 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 13:47:06 | INFO     | app.main:73 | ============================================================
+2026-07-12 13:47:06 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 13:47:06 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 13:47:06 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 13:47:06 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 13:47:06 | INFO     | app.main:78 | ============================================================
+2026-07-12 13:49:35 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 13:49:36 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 13:49:36 | INFO     | app.main:73 | ============================================================
+2026-07-12 13:49:36 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 13:49:36 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 13:49:36 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 13:49:36 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 13:49:36 | INFO     | app.main:78 | ============================================================
+2026-07-12 13:49:58 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 13:49:58 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 13:49:58 | INFO     | app.main:73 | ============================================================
+2026-07-12 13:49:58 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 13:49:58 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 13:49:58 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 13:49:58 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 13:49:58 | INFO     | app.main:78 | ============================================================
+2026-07-12 13:50:39 | INFO     | app.main:154 | → GET /api/v1/vms/ | client=127.0.0.1 | request_id=678fb67e-03ec-458e-a191-f9a59a32655e
+2026-07-12 13:50:39 | ERROR    | app.main:195 | Unhandled exception on GET /api/v1/vms/
+Traceback (most recent call last):
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 193, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/main.py", line 162, in request_logging_middleware
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 168, in call_next
+    raise app_exc from app_exc.__cause__ or app_exc.__context__
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 88, in __call__
+    await self.app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 660, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 2683, in app
+    await route.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1753, in handle
+    await self.original_router.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 2738, in handle
+    await included_router._handle_selected(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1773, in _handle_selected
+    await original_route.handle(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 1264, in handle
+    await app(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 150, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 136, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 690, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 346, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 34, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2596, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1029, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/routers/vm.py", line 19, in get_all_vms
+    return service.get_all_vms()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/prachi/Documents/Projects/HyperVisorX/Backend/app/services/vm_service.py", line 36, in get_all_vms
+    status=self._get_state_name(state),
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'VMService' object has no attribute '_get_state_name'
+2026-07-12 14:03:03 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 14:03:04 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 14:03:04 | INFO     | app.main:73 | ============================================================
+2026-07-12 14:03:04 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 14:03:04 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 14:03:04 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 14:03:04 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 14:03:04 | INFO     | app.main:78 | ============================================================
+2026-07-12 14:03:29 | INFO     | app.main:154 | → GET /api/v1/vms/ | client=127.0.0.1 | request_id=2b00419a-6fd5-466a-a924-12348088f978
+2026-07-12 14:03:29 | INFO     | app.main:165 | ← GET /api/v1/vms/ | status=200 | duration=127.85ms | request_id=2b00419a-6fd5-466a-a924-12348088f978
+2026-07-12 14:49:23 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 14:49:24 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 14:49:24 | INFO     | app.main:73 | ============================================================
+2026-07-12 14:49:24 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 14:49:24 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 14:49:24 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 14:49:24 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 14:49:24 | INFO     | app.main:78 | ============================================================
+2026-07-12 15:10:04 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 15:10:06 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 15:10:06 | INFO     | app.main:73 | ============================================================
+2026-07-12 15:10:06 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 15:10:06 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 15:10:06 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 15:10:06 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 15:10:06 | INFO     | app.main:78 | ============================================================
+2026-07-12 15:15:40 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 15:15:41 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 15:15:41 | INFO     | app.main:73 | ============================================================
+2026-07-12 15:15:41 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 15:15:41 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 15:15:41 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 15:15:41 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 15:15:41 | INFO     | app.main:78 | ============================================================
+2026-07-12 15:16:29 | INFO     | app.main:154 | → GET / | client=127.0.0.1 | request_id=eec35774-3c0b-4897-b4c0-ca89333afa21
+2026-07-12 15:16:29 | INFO     | app.main:165 | ← GET / | status=200 | duration=18.27ms | request_id=eec35774-3c0b-4897-b4c0-ca89333afa21
+2026-07-12 15:49:53 | INFO     | app.main:83 | Shutting down HyperVisorX …
+2026-07-12 15:49:54 | INFO     | app.core.logger:122 | Logging initialised | level=DEBUG | file=/home/prachi/Documents/Projects/HyperVisorX/logs/app.log
+2026-07-12 15:49:54 | INFO     | app.main:73 | ============================================================
+2026-07-12 15:49:54 | INFO     | app.main:74 | Starting HyperVisorX v0.1.0
+2026-07-12 15:49:54 | INFO     | app.main:75 | Debug mode : True
+2026-07-12 15:49:54 | INFO     | app.main:76 | API prefix : /api/v1
+2026-07-12 15:49:54 | INFO     | app.main:77 | libvirt URI: qemu:///system
+2026-07-12 15:49:54 | INFO     | app.main:78 | ============================================================
+2026-07-12 15:50:11 | INFO     | app.main:154 | → GET /docs | client=127.0.0.1 | request_id=5097a8e5-1d0d-4c1f-b529-a80aaa5baf0e
+2026-07-12 15:50:11 | INFO     | app.main:165 | ← GET /docs | status=200 | duration=0.88ms | request_id=5097a8e5-1d0d-4c1f-b529-a80aaa5baf0e
+2026-07-12 15:50:11 | INFO     | app.main:154 | → GET /openapi.json | client=127.0.0.1 | request_id=cdd34ff4-cd2f-41a9-a3aa-84ad17da2351
+2026-07-12 15:50:11 | INFO     | app.main:165 | ← GET /openapi.json | status=200 | duration=45.57ms | request_id=cdd34ff4-cd2f-41a9-a3aa-84ad17da2351
+2026-07-12 15:50:25 | INFO     | app.main:154 | → GET /api/v1/vms/ | client=127.0.0.1 | request_id=84a6216e-55bb-4f5f-bf9a-5a1eb6c0be9b
+2026-07-12 15:50:25 | INFO     | app.main:165 | ← GET /api/v1/vms/ | status=200 | duration=101.07ms | request_id=84a6216e-55bb-4f5f-bf9a-5a1eb6c0be9b

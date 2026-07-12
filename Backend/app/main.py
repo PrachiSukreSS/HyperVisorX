@@ -39,6 +39,8 @@ from app.api.v1 import health as health_router
 from app.core.config import settings
 from app.core.logger import setup_logging
 from app.routers.auth import router as auth_router
+
+from app.routers.vm import router as vm_router
 # ------------------------------------------------------------------ #
 # Initialise logging FIRST, before anything else logs.               #
 # ------------------------------------------------------------------ #
@@ -236,3 +238,8 @@ def root():
         "version": "0.1.0",
         "status": "Running"
     }
+
+app.include_router(
+    vm_router,
+    prefix=settings.API_PREFIX,
+)
