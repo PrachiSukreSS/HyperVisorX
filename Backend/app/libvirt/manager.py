@@ -204,7 +204,59 @@ class VirtualMachineManager:
         except:
              pass
         return None        
+    def get_vm_stats(self, vm_name: str):
+        """
+         Get VM CPU and Memory statistics.
+        """
+        try:
+            domain = self.conn.lookupByName(vm_name)
 
+            info = domain.info()
+            return {
+                "state": info[0],
+                "max_memory_mb": info[1] // 1024,
+                "used_memory_mb": info[2] // 1024,
+                "vcpus": info[3],
+                "cpu_time_ns": info[4],
+            }
+
+        except libvirt.libvirtError as e:
+            raise Exception(str(e))
+    
+    def get_vm_network(self, vm_name: str):
+        """
+        Get VM network statistics.
+        """
+        try:
+            domain = self.conn.lookupByName(vm_name)
+
+            xml = domain.XMLDesc()
+
+            import xml.etree.ElementTree as ET
+
+            root = ET.fromstring(xml)
+
+            interface = root.find(".//devices/interface/target")
+
+            if interface is None:
+               return {
+                "error": "No network interface found."
+            }
+
+            interface_name = interface.attrib["dev"]
+
+            stats = domain.interfaceStats(interface_name)
+
+            return {
+            "interface": interface_name,
+            "rx_bytes": stats[0],
+            "rx_packets": stats[1],
+            "tx_bytes": stats[4],
+            "tx_packets": stats[5],
+        }
+
+        except libvirt.libvirtError as e:
+         raise Exception(str(e))
     # -----------------------------
     # Close Connection
     # -----------------------------
