@@ -1,5 +1,7 @@
 import libvirt
-
+import os
+import shutil
+import subprocess
 from app.libvirt.connection import get_connection
 
 
@@ -138,17 +140,96 @@ class VirtualMachineManager:
         try:
             domain = self.conn.lookupByName(vm_name)
 
-            xml = f"""
-            <domainsnapshot>
-                <name>{snapshot_name}</name>
-            </domainsnapshot>
-            """
+            state, _ = domain.state()
 
-            domain.snapshotCreateXML(xml, 0)
+            if state != libvirt.VIR_DOMAIN_SHUTOFF:
+                raise Exception(
+                    "Please shut down the VM before creating a snapshot."
+                )
+
+            source_disk = f"/var/lib/libvirt/images/{vm_name}.qcow2"
+
+            if not os.path.exists(source_disk):
+                raise Exception(f"VM disk not found: {source_disk}")
+
+            snapshot_dir = os.path.join(
+                os.getcwd(),
+                "snapshots",
+                vm_name,
+            )
+
+            os.makedirs(snapshot_dir, exist_ok=True)
+
+            snapshot_disk = os.path.join(
+                snapshot_dir,
+                f"{snapshot_name}.qcow2",
+            )
+
+            if os.path.exists(snapshot_disk):
+                raise Exception(
+                    f"Snapshot '{snapshot_name}' already exists."
+                )
+
+            subprocess.run(
+                [
+                    "sudo",
+                    "/home/prachi/Documents/Projects/HyperVisorX/Backend/scripts/snapshot_copy.sh",
+                    source_disk,
+                    snapshot_disk,
+                ],
+                check=True,
+            )
 
             return True
 
-        except libvirt.libvirtError as e:
+        except subprocess.CalledProcessError:
+            raise Exception("Failed to create snapshot.")
+
+        except Exception as e:
+            raise Exception(str(e))
+
+    # -----------------------------
+    # List Snapshots
+    # -----------------------------
+    def list_snapshots(self, vm_name: str):
+        try:
+            snapshot_dir = os.path.join(
+                os.getcwd(),
+                "snapshots",
+                vm_name,
+            )
+
+            if not os.path.exists(snapshot_dir):
+                return []
+
+            snapshots = []
+
+            for file in os.listdir(snapshot_dir):
+
+                if not file.endswith(".qcow2"):
+                    continue
+
+                path = os.path.join(snapshot_dir, file)
+
+                snapshots.append(
+                    {
+                        "name": file.replace(".qcow2", ""),
+                        "size_mb": round(
+                            os.path.getsize(path) / (1024 * 1024),
+                            2,
+                        ),
+                        "created": os.path.getctime(path),
+                    }
+                )
+
+            snapshots.sort(
+                key=lambda x: x["created"],
+                reverse=True,
+            )
+
+            return snapshots
+
+        except Exception as e:
             raise Exception(str(e))
 
     # -----------------------------
@@ -158,13 +239,41 @@ class VirtualMachineManager:
         try:
             domain = self.conn.lookupByName(vm_name)
 
-            snapshot = domain.snapshotLookupByName(snapshot_name)
+            state, _ = domain.state()
 
-            domain.revertToSnapshot(snapshot)
+            if state != libvirt.VIR_DOMAIN_SHUTOFF:
+                raise Exception(
+                    "Please shut down the VM before restoring a snapshot."
+                )
+
+            snapshot_disk = os.path.join(
+                os.getcwd(),
+                "snapshots",
+                vm_name,
+                f"{snapshot_name}.qcow2",
+            )
+
+            if not os.path.exists(snapshot_disk):
+                raise Exception("Snapshot not found.")
+
+            vm_disk = f"/var/lib/libvirt/images/{vm_name}.qcow2"
+
+            subprocess.run(
+                [
+                    "sudo",
+                    "/home/prachi/Documents/Projects/HyperVisorX/Backend/scripts/snapshot_copy.sh",
+                    snapshot_disk,
+                    vm_disk,
+                ],
+                check=True,
+            )
 
             return True
 
-        except libvirt.libvirtError as e:
+        except subprocess.CalledProcessError:
+            raise Exception("Failed to restore snapshot.")
+
+        except Exception as e:
             raise Exception(str(e))
 
     # -----------------------------
@@ -172,24 +281,37 @@ class VirtualMachineManager:
     # -----------------------------
     def delete_snapshot(self, vm_name: str, snapshot_name: str):
         try:
-            domain = self.conn.lookupByName(vm_name)
+            snapshot_disk = os.path.join(
+                os.getcwd(),
+                "snapshots",
+                vm_name,
+                f"{snapshot_name}.qcow2",
+            )
 
-            snapshot = domain.snapshotLookupByName(snapshot_name)
+            if not os.path.exists(snapshot_disk):
+                raise Exception("Snapshot not found.")
 
-            snapshot.delete()
+            subprocess.run(
+    [
+        "sudo",
+        "/home/prachi/Documents/Projects/HyperVisorX/Backend/scripts/delete_snapshot.sh",
+        snapshot_disk,
+    ],
+    check=True,
+)
 
             return True
 
-        except libvirt.libvirtError as e:
+        except Exception as e:
             raise Exception(str(e))
 
-
-
+    # -----------------------------
+    # Get VM IP Address
+    # -----------------------------
     def get_vm_ip(self, domain):
         """
-         Return VM IPv4 address.
-          """
-
+        Return VM IPv4 address.
+        """
         try:
             interfaces = domain.interfaceAddresses(
                 libvirt.VIR_DOMAIN_INTERFACE_ADDRESSES_SRC_AGENT
@@ -201,17 +323,23 @@ class VirtualMachineManager:
                         if addr["type"] == libvirt.VIR_IP_ADDR_TYPE_IPV4:
                             return addr["addr"]
 
-        except:
-             pass
-        return None        
+        except Exception:
+            pass
+
+        return None
+
+    # -----------------------------
+    # Get VM Statistics
+    # -----------------------------
     def get_vm_stats(self, vm_name: str):
         """
-         Get VM CPU and Memory statistics.
+        Get VM CPU and Memory statistics.
         """
         try:
             domain = self.conn.lookupByName(vm_name)
 
             info = domain.info()
+
             return {
                 "state": info[0],
                 "max_memory_mb": info[1] // 1024,
@@ -222,7 +350,10 @@ class VirtualMachineManager:
 
         except libvirt.libvirtError as e:
             raise Exception(str(e))
-    
+
+    # -----------------------------
+    # Get VM Network Statistics
+    # -----------------------------
     def get_vm_network(self, vm_name: str):
         """
         Get VM network statistics.
@@ -239,24 +370,25 @@ class VirtualMachineManager:
             interface = root.find(".//devices/interface/target")
 
             if interface is None:
-               return {
-                "error": "No network interface found."
-            }
+                return {
+                    "error": "No network interface found."
+                }
 
             interface_name = interface.attrib["dev"]
 
             stats = domain.interfaceStats(interface_name)
 
             return {
-            "interface": interface_name,
-            "rx_bytes": stats[0],
-            "rx_packets": stats[1],
-            "tx_bytes": stats[4],
-            "tx_packets": stats[5],
-        }
+                "interface": interface_name,
+                "rx_bytes": stats[0],
+                "rx_packets": stats[1],
+                "tx_bytes": stats[4],
+                "tx_packets": stats[5],
+            }
 
         except libvirt.libvirtError as e:
-         raise Exception(str(e))
+            raise Exception(str(e))
+
     # -----------------------------
     # Close Connection
     # -----------------------------

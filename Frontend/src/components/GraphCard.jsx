@@ -1,45 +1,37 @@
 import {
-      Chart as ChartJS,
-      CategoryScale,
-      LinearScale,
-      PointElement,
-      LineElement,
-      Title,
+      LineChart,
+      Line,
+      ResponsiveContainer,
+      XAxis,
+      YAxis,
+      CartesianGrid,
       Tooltip,
-      Legend,
-} from "chart.js";
+} from "recharts";
 
-import { Line } from "react-chartjs-2";
-
-ChartJS.register(
-      CategoryScale,
-      LinearScale,
-      PointElement,
-      LineElement,
-      Title,
-      Tooltip,
-      Legend
-);
-
-function GraphCard({ title, data }) {
-      const chartData = {
-            labels: data.map((_, index) => index + 1),
-
-            datasets: [
-                  {
-                        label: title,
-                        data: data,
-                  },
-            ],
-      };
-
+function GraphCard({ title, data, dataKey }) {
       return (
-            <div className="bg-slate-900 border border-slate-800 rounded-xl p-5">
-                  <h2 className="mb-4 text-xl font-semibold">
-                        {title}
-                  </h2>
+            <div className="bg-slate-900 rounded-xl p-5 shadow-lg">
+                  <h3 className="text-lg font-semibold mb-4">{title}</h3>
 
-                  <Line data={chartData} />
+                  <ResponsiveContainer width="100%" height={250}>
+                        <LineChart data={data}>
+                              <CartesianGrid stroke="#333" />
+
+                              <XAxis hide />
+
+                              <YAxis />
+
+                              <Tooltip />
+
+                              <Line
+                                    type="monotone"
+                                    dataKey={dataKey}
+                                    stroke="#38bdf8"
+                                    strokeWidth={3}
+                                    dot={false}
+                              />
+                        </LineChart>
+                  </ResponsiveContainer>
             </div>
       );
 }

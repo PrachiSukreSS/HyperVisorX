@@ -2,6 +2,9 @@ import psutil
 
 from app.libvirt.manager import VirtualMachineManager
 
+# Warm up psutil CPU percent cache so the first non-blocking call returns a real value.
+psutil.cpu_percent(interval=None)
+
 
 class MonitoringService:
 
@@ -11,7 +14,7 @@ class MonitoringService:
     def get_host_cpu(self):
 
         return {
-            "cpu_percent": psutil.cpu_percent(interval=1)
+            "cpu_percent": psutil.cpu_percent(interval=None)
         }
 
     # -----------------------------

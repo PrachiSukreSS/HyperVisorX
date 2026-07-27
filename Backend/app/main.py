@@ -42,6 +42,9 @@ from app.routers.auth import router as auth_router
 from app.routers import monitoring
 
 from app.routers.vm import router as vm_router
+from app.routers import console
+
+from fastapi.middleware.cors import CORSMiddleware
 # ------------------------------------------------------------------ #
 # Initialise logging FIRST, before anything else logs.               #
 # ------------------------------------------------------------------ #
@@ -124,9 +127,14 @@ app = FastAPI(
 
 # CORS — allow the React frontend (different origin) to call the API.
 # In production, replace ["*"] with the exact frontend URL.
+#from fastapi.middleware.cors import CORSMiddleware
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"] if settings.DEBUG else [],
+    allow_origins=[
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -181,6 +189,10 @@ async def request_logging_middleware(request: Request, call_next):
 # Global exception handlers                                          #
 # ------------------------------------------------------------------ #
 
+# Allowed origins list — keep in sync with the CORSMiddleware config above.
+_ALLOWED_ORIGINS = {"http://localhost:5173", "http://127.0.0.1:5173"}
+
+
 @app.exception_handler(Exception)
 async def unhandled_exception_handler(request: Request, exc: Exception) -> JSONResponse:
     """
@@ -192,6 +204,10 @@ async def unhandled_exception_handler(request: Request, exc: Exception) -> JSONR
 
     In DEBUG mode we include the exception message; in production we hide
     it to avoid leaking internal details.
+
+    CORS note: Custom exception handlers run *inside* the middleware stack,
+    so CORSMiddleware never gets to add its headers to error responses.
+    We therefore add the Access-Control-Allow-Origin header manually here.
     """
     logger.exception(
         "Unhandled exception on %s %s",
@@ -201,6 +217,14 @@ async def unhandled_exception_handler(request: Request, exc: Exception) -> JSONR
 
     detail = str(exc) if settings.DEBUG else "An internal server error occurred."
 
+    # Reflect the Origin header back if it is an allowed origin so that the
+    # browser can read the JSON error body instead of seeing a CORS block.
+    origin = request.headers.get("origin", "")
+    headers = {}
+    if origin in _ALLOWED_ORIGINS:
+        headers["Access-Control-Allow-Origin"] = origin
+        headers["Access-Control-Allow-Credentials"] = "true"
+
     return JSONResponse(
         status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
         content={
@@ -208,6 +232,7 @@ async def unhandled_exception_handler(request: Request, exc: Exception) -> JSONR
             "detail": detail,
             "path": str(request.url.path),
         },
+        headers=headers,
     )
 
 
@@ -247,5 +272,10 @@ app.include_router(
 
 app.include_router(
     monitoring.router,
+    prefix=settings.API_PREFIX,
+)
+
+app.include_router(
+    console.router,
     prefix=settings.API_PREFIX,
 )

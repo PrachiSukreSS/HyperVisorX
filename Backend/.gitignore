@@ -43,3 +43,19 @@ htmlcov/
 
 # mypy
 .mypy_cache/
+
+# ============================================================
+# Virtual Machines / libvirt
+# ============================================================
+
+# VM disk images
+*.qcow2
+*.qcow
+*.img
+
+# HyperVisorX VM snapshots
+Backend/snapshots/
+
+# VM runtime/state files
+*.sav
+*.vmstate

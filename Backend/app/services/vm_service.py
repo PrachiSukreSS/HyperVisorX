@@ -233,20 +233,17 @@ class VMService:
         return {
             "message": f"Snapshot '{snapshot_name}' created successfully."
         }
-
-    # -----------------------------
-    # Restore Snapshot
-    # -----------------------------
-    def restore_snapshot(self, vm_name: str, snapshot_name: str):
+    def list_snapshots(self, vm_name: str):
 
         manager = VirtualMachineManager()
 
-        manager.restore_snapshot(vm_name, snapshot_name)
+        snapshots = manager.list_snapshots(vm_name)
 
         manager.close()
 
         return {
-            "message": f"Snapshot '{snapshot_name}' restored successfully."
+            "vm": vm_name,
+            "snapshots": snapshots
         }
 
     # -----------------------------
@@ -263,3 +260,16 @@ class VMService:
         return {
             "message": f"Snapshot '{snapshot_name}' deleted successfully."
         }
+
+    # -----------------------------
+    # List Snapshots
+    # -----------------------------
+    def list_snapshots(self, vm_name: str):
+
+        manager = VirtualMachineManager()
+
+        snapshots = manager.list_snapshots(vm_name)
+
+        manager.close()
+
+        return snapshots     

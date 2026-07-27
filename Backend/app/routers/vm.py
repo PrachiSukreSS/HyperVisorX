@@ -97,3 +97,10 @@ def restore_snapshot(vm_name: str, snapshot_name: str):
 @router.delete("/{vm_name}/snapshot/{snapshot_name}")
 def delete_snapshot(vm_name: str, snapshot_name: str):
     return service.delete_snapshot(vm_name, snapshot_name)
+
+@router.get("/{vm_name}/snapshots")
+def list_snapshots(vm_name: str):
+
+    service = VMService()
+
+    return service.list_snapshots(vm_name)

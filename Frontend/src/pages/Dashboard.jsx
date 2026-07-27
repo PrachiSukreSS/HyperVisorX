@@ -14,7 +14,7 @@ function Dashboard() {
             host_usage: 0,
             vm_usage: 0,
       });
-
+      const [history, setHistory] = useState([]);
       const [cpuHistory, setCpuHistory] = useState([]);
       const [ramHistory, setRamHistory] = useState([]);
       const [diskHistory, setDiskHistory] = useState([]);
@@ -30,9 +30,26 @@ function Dashboard() {
 
       async function fetchMetrics() {
             try {
-                  const res = await api.get("/monitoring");
+                  const res = await api.get("/monitoring/");
 
                   setMetrics(res.data);
+
+                  setHistory((prev) => {
+                        const updated = [
+                              ...prev,
+                              {
+                                    cpu: res.data.cpu_usage,
+                                    ram: res.data.memory_usage,
+                                    disk: res.data.disk_usage,
+                              },
+                        ];
+
+                        if (updated.length > 20) {
+                              updated.shift();
+                        }
+
+                        return updated;
+                  });
 
                   setCpuHistory((prev) => [
                         ...prev.slice(-19),
@@ -118,26 +135,24 @@ function Dashboard() {
                               </div>
 
                               {/* Live Graphs */}
-                              <div className="grid grid-cols-2 gap-6 mt-10">
+                              <div className="grid grid-cols-3 gap-6 mt-10">
 
                                     <GraphCard
                                           title="CPU Usage"
-                                          data={cpuHistory}
+                                          data={history}
+                                          dataKey="cpu"
                                     />
 
                                     <GraphCard
                                           title="RAM Usage"
-                                          data={ramHistory}
+                                          data={history}
+                                          dataKey="ram"
                                     />
 
                                     <GraphCard
                                           title="Disk Usage"
-                                          data={diskHistory}
-                                    />
-
-                                    <GraphCard
-                                          title="Network Usage"
-                                          data={networkHistory}
+                                          data={history}
+                                          dataKey="disk"
                                     />
 
                               </div>
