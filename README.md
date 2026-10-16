@@ -1,97 +1,160 @@
 # HyperVisorX
 
-HyperVisorX is a Linux virtualization management platform for operating and monitoring KVM/libvirt virtual machines through a FastAPI REST API and a React dashboard.
+HyperVisorX is a Linux virtualization management platform for managing and monitoring KVM/libvirt virtual machines through a FastAPI backend and React-based web dashboard.
 
-It provides VM lifecycle controls, QCOW2 snapshot management, host and VM monitoring, JWT-based authentication, and a browser interface for administrators and operators.
+The project provides virtual machine lifecycle controls, VM monitoring, snapshot management, authentication, resource usage charts, and a browser-based management interface.
 
-> **Project status:** This repository is under active development. Several routers, frontend pages, and service modules are currently scaffolding or incomplete, so review the implementation before using HyperVisorX in a production environment.
+> **Status:** HyperVisorX is under active development. Some modules and frontend pages are incomplete or currently serve as scaffolding. Review the implementation and security configuration before using it in production.
 
 ## Features
 
-- List virtual machines managed by libvirt
-- Inspect VM details and runtime state
-- Start, gracefully shut down, force stop, restart, suspend, and resume VMs
+- List and inspect libvirt virtual machines
+- Start, shut down, stop, restart, suspend, and resume VMs
 - Create, list, restore, and delete QCOW2 snapshots
-- Collect host CPU, memory, disk, and network metrics with `psutil`
-- Collect VM CPU, memory, and network statistics through libvirt
-- FastAPI Swagger UI and ReDoc documentation
-- JWT authentication with role checks for admin, operator, and viewer users
-- React dashboard with live metrics polling and charts
-- Request logging with correlation IDs through the `X-Request-ID` response header
-- SQLAlchemy database foundation with Alembic migration support
+- Monitor host CPU, memory, disk, and network usage
+- Monitor VM CPU, memory, and network statistics
+- JWT-based authentication
+- Role-based access checks for admin, operator, and viewer users
+- React monitoring dashboard with live metric polling
+- Charts for CPU, memory, and disk usage
+- FastAPI Swagger and ReDoc documentation
+- SQLAlchemy database integration
+- Alembic migration support
+- Request logging with request IDs
+- CORS support for the local React development server
 
 ## Architecture
 
 ```text
 React + Vite frontend
         |
-        | Axios / JSON over HTTP
+        | Axios / REST API
         v
-FastAPI application (Backend/app/main.py)
+FastAPI backend
         |
-        +--> Routers: auth, VM, monitoring, console, health
+        +--> Authentication and authorization
         |
-        +--> Services: VM, monitoring, authentication, console
+        +--> VM and monitoring services
         |
-        +--> libvirt manager --> libvirt daemon --> QEMU/KVM
+        +--> libvirt connection
+        |        |
+        |        +--> QEMU/KVM virtual machines
         |
-        +--> SQLAlchemy --> PostgreSQL
+        +--> SQLAlchemy
+                 |
+                 +--> PostgreSQL
 ```
 
-The backend is composed in `Backend/app/main.py`. Requests are routed under `/api/v1`, then delegated to service classes. VM operations use `VirtualMachineManager`, which opens a libvirt connection using `LIBVIRT_URI`. Monitoring combines host metrics from `psutil` with VM metrics from libvirt. Authentication uses a PostgreSQL-backed user model and JWT access tokens.
+The backend entry point is `Backend/app/main.py`. API requests are grouped into routers and mounted under the `/api/v1` prefix. Service classes contain the application logic, while `VirtualMachineManager` handles communication with libvirt.
 
-## Repository layout
+## Project Structure
 
 ```text
-Backend/
-├── app/
-│   ├── api/v1/       Versioned health endpoint
-│   ├── core/         Configuration, database, logging, and security
-│   ├── dependencies/ Authentication and request dependencies
-│   ├── libvirt/      libvirt connection and VM management logic
-│   ├── models/       SQLAlchemy ORM models
-│   ├── routers/      FastAPI route groups
-│   ├── schemas/      Pydantic request and response schemas
-│   ├── services/     Authentication, VM, monitoring, and console services
-│   └── main.py       FastAPI application entry point
-├── alembic/          Database migration configuration and versions
-├── scripts/          Snapshot copy and deletion shell scripts
-├── requirements.txt  Python dependencies
-└── test_*.py         Local smoke-test scripts
-
-Frontend/
-├── src/
-│   ├── api/          Axios client and authentication API helpers
-│   ├── components/  Shared dashboard, navigation, and chart components
-│   ├── pages/       Dashboard, console, snapshots, and planned views
-│   ├── services/     Shared API client
-│   └── App.jsx       React Router configuration
-├── package.json       Vite scripts and JavaScript dependencies
-└── vite.config.js     Vite configuration
-
-logs/
-└── app.log           Application log output
+HyperVisorX/
+├── Backend/
+│   ├── app/
+│   │   ├── api/v1/          Versioned API endpoints such as health checks
+│   │   ├── core/            Configuration, database, logging, and security
+│   │   ├── dependencies/    FastAPI authentication dependencies
+│   │   ├── libvirt/         libvirt connection and VM management
+│   │   ├── models/          SQLAlchemy database models
+│   │   ├── routers/         FastAPI route modules
+│   │   ├── schemas/         Pydantic request and response schemas
+│   │   ├── services/        Authentication, VM, monitoring, and console services
+│   │   └── main.py          FastAPI application entry point
+│   ├── alembic/              Database migration configuration
+│   ├── scripts/              Snapshot management shell scripts
+│   ├── requirements.txt      Python dependencies
+│   └── test_*.py             Local libvirt and authentication smoke tests
+│
+├── Frontend/
+│   ├── src/
+│   │   ├── api/              Axios clients and authentication helpers
+│   │   ├── components/       Shared UI components
+│   │   ├── pages/            Dashboard, console, and snapshot pages
+│   │   ├── services/         API service clients
+│   │   ├── App.jsx           React Router configuration
+│   │   └── main.jsx          Frontend entry point
+│   ├── package.json           Frontend dependencies and scripts
+│   └── vite.config.js         Vite configuration
+│
+└── logs/                      Application log output
 ```
+
+## Technology Stack
+
+### Backend
+
+- Python
+- FastAPI
+- Uvicorn
+- Pydantic Settings
+- SQLAlchemy
+- Alembic
+- PostgreSQL
+- libvirt
+- QEMU/KVM
+- psutil
+- JWT authentication
+
+### Frontend
+
+- React
+- Vite
+- React Router
+- Axios
+- Tailwind CSS
+- Chart.js
+- Recharts
 
 ## Requirements
 
-HyperVisorX is intended to run on a Linux host with virtualization enabled.
+HyperVisorX is designed for a Linux system with virtualization support.
+
+You will need:
 
 - Python 3.10 or newer
 - Node.js and npm
 - QEMU/KVM
-- libvirt and the Python libvirt bindings
+- libvirt
+- Python libvirt bindings
 - A running libvirt daemon
-- PostgreSQL, if using the database-backed authentication and ORM models
-- Permission to access the system libvirt connection and VM disk files
+- PostgreSQL
+- Permission to access libvirt and VM disk files
 
-The backend configuration defaults to the system libvirt URI `qemu:///system` and PostgreSQL database `hypervisorx` on `localhost:5432`.
+Verify that virtualization is available on the host:
 
-> **Dependency check:** The application imports additional packages such as `libvirt`, `psutil`, SQLAlchemy, and JWT/security-related libraries. Ensure these are installed in the backend environment if they are not present in the current `requirements.txt`.
+```bash
+sudo systemctl status libvirtd
+virsh list --all
+```
 
-## Configuration
+Depending on the Linux distribution, the libvirt service may be named `libvirt` instead of `libvirtd`.
 
-Create `Backend/.env` before starting the backend. `SECRET_KEY` is required by `app/core/config.py`.
+## Backend Setup
+
+Clone the repository and enter the backend directory:
+
+```bash
+git clone https://github.com/PrachiSukreSS/HyperVisorX.git
+cd HyperVisorX/Backend
+```
+
+Create and activate a virtual environment:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+Install the Python dependencies:
+
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+Create a `.env` file inside the `Backend` directory:
 
 ```dotenv
 APP_NAME=HyperVisorX
@@ -101,141 +164,200 @@ HOST=0.0.0.0
 PORT=8000
 LOG_LEVEL=INFO
 API_PREFIX=/api/v1
+
 LIBVIRT_URI=qemu:///system
+
 DATABASE_URL=postgresql+psycopg://postgres:postgres@localhost:5432/hypervisorx
+
 SECRET_KEY=replace-with-a-long-random-secret
 ALGORITHM=HS256
 ACCESS_TOKEN_EXPIRE_MINUTES=30
 ```
 
-For production, use a strong secret stored outside Git, set `DEBUG=false`, restrict CORS origins, and use a database password appropriate for the deployment.
-
-## Backend setup
-
-From the repository root:
-
-```bash
-cd Backend
-python3 -m venv .venv
-source .venv/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
-```
-
-Start the API:
+Start the FastAPI server:
 
 ```bash
 uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
-The API is then available at:
+The backend will be available at:
 
-- Root status: `http://127.0.0.1:8000/`
-- Health check: `http://127.0.0.1:8000/api/v1/health`
+```text
+http://127.0.0.1:8000
+```
+
+## API Documentation
+
+Once the backend is running, open:
+
 - Swagger UI: `http://127.0.0.1:8000/docs`
 - ReDoc: `http://127.0.0.1:8000/redoc`
+- OpenAPI schema: `http://127.0.0.1:8000/openapi.json`
 
-If the package is not being resolved, run the command from `Backend/` or set `PYTHONPATH` to the backend directory.
+## Frontend Setup
 
-## Frontend setup
-
-In a second terminal:
+Open a second terminal:
 
 ```bash
-cd Frontend
+cd HyperVisorX/Frontend
 npm install
 npm run dev
 ```
 
-The Vite development server normally runs at `http://localhost:5173`. The frontend API clients currently target `http://127.0.0.1:8000/api/v1`; update `Frontend/src/api/axios.js` and `Frontend/src/services/api.js` or move the URL to an environment variable when deploying elsewhere.
+The frontend development server normally runs at:
 
-Other frontend commands:
+```text
+http://localhost:5173
+```
+
+The frontend currently communicates with the backend at:
+
+```text
+http://127.0.0.1:8000/api/v1
+```
+
+This URL is configured in:
+
+```text
+Frontend/src/api/axios.js
+Frontend/src/services/api.js
+```
+
+For deployment, it is recommended to move the API URL into a Vite environment variable.
+
+## Frontend Commands
+
+```bash
+npm run dev
+```
+
+Starts the Vite development server.
 
 ```bash
 npm run build
+```
+
+Creates a production build.
+
+```bash
 npm run preview
+```
+
+Previews the production build locally.
+
+```bash
 npm run lint
 ```
 
-## API overview
+Runs ESLint.
 
-All routes below are prefixed with `/api/v1`.
+## API Endpoints
+
+All versioned endpoints use the `/api/v1` prefix.
 
 ### Health
 
-```text
-GET /health
+```http
+GET /api/v1/health
 ```
 
-Returns application status, version, and a UTC timestamp.
+Returns the application status, version, and current UTC timestamp.
 
 ### Authentication
 
-```text
-POST /auth/register
-POST /auth/login
-GET  /auth/me
-GET  /auth/admin
-GET  /auth/operator
-GET  /auth/viewer
+```http
+POST /api/v1/auth/register
+POST /api/v1/auth/login
+GET  /api/v1/auth/me
+GET  /api/v1/auth/admin
+GET  /api/v1/auth/operator
+GET  /api/v1/auth/viewer
 ```
 
-Login returns a bearer token. The frontend Axios interceptor reads `access_token` from `localStorage` and sends it as an `Authorization: Bearer ...` header.
+The login endpoint returns a JWT bearer token.
 
-### Virtual machines
+Example response:
 
-```text
-GET    /vms/
-GET    /vms/{vm_name}
-POST   /vms/{vm_name}/start
-POST   /vms/{vm_name}/shutdown
-POST   /vms/{vm_name}/stop
-POST   /vms/{vm_name}/restart
-POST   /vms/{vm_name}/suspend
-POST   /vms/{vm_name}/resume
-GET    /vms/{vm_name}/snapshots
-POST   /vms/{vm_name}/snapshot/{snapshot_name}
-POST   /vms/{vm_name}/snapshot/{snapshot_name}/restore
-DELETE /vms/{vm_name}/snapshot/{snapshot_name}
+```json
+{
+  "access_token": "your-jwt-token",
+  "token_type": "bearer"
+}
 ```
 
-VM actions are executed through libvirt. Snapshot creation and restoration currently expect VM disks under `/var/lib/libvirt/images/` and use shell scripts under `Backend/scripts/`.
+The frontend authentication client stores the token in `localStorage` and sends it with subsequent requests.
+
+### Virtual Machines
+
+```http
+GET    /api/v1/vms/
+GET    /api/v1/vms/{vm_name}
+POST   /api/v1/vms/{vm_name}/start
+POST   /api/v1/vms/{vm_name}/shutdown
+POST   /api/v1/vms/{vm_name}/stop
+POST   /api/v1/vms/{vm_name}/restart
+POST   /api/v1/vms/{vm_name}/suspend
+POST   /api/v1/vms/{vm_name}/resume
+GET    /api/v1/vms/{vm_name}/snapshots
+POST   /api/v1/vms/{vm_name}/snapshot/{snapshot_name}
+POST   /api/v1/vms/{vm_name}/snapshot/{snapshot_name}/restore
+DELETE /api/v1/vms/{vm_name}/snapshot/{snapshot_name}
+```
 
 ### Monitoring
 
-```text
-GET /monitoring/
-GET /monitoring/host/cpu
-GET /monitoring/host/memory
-GET /monitoring/host/disk
-GET /monitoring/host/network
-GET /monitoring/vm/{vm_name}
-GET /monitoring/vm/{vm_name}/network
+```http
+GET /api/v1/monitoring/
+GET /api/v1/monitoring/host/cpu
+GET /api/v1/monitoring/host/memory
+GET /api/v1/monitoring/host/disk
+GET /api/v1/monitoring/host/network
+GET /api/v1/monitoring/vm/{vm_name}
+GET /api/v1/monitoring/vm/{vm_name}/network
 ```
 
-The dashboard polls `/monitoring/` every three seconds and retains a short in-memory history for its charts.
+The dashboard periodically requests `/api/v1/monitoring/` to display live host metrics.
 
 ### Console
 
-```text
-GET /console/{vm_name}
+```http
+GET /api/v1/console/{vm_name}
 ```
 
-The console endpoint is wired into the application, but its service implementation should be reviewed before relying on it.
+The console route is registered in the backend. The console service should be reviewed and completed before using it in production.
 
-## Snapshots and permissions
+## Snapshot Management
 
-Snapshot operations require the VM to be shut off. The implementation currently:
+Snapshot operations currently use QCOW2 disk images.
 
-1. Looks for the source disk at `/var/lib/libvirt/images/{vm_name}.qcow2`.
-2. Stores snapshots under `snapshots/{vm_name}/` relative to the backend process directory.
-3. Calls shell scripts through `sudo` to copy or delete QCOW2 files.
+The implementation expects VM disk images at:
 
-Before using this functionality, verify file ownership, sudo permissions, script paths, and disk safety. The current implementation contains host-specific absolute script paths and should be made configurable before deployment to another machine.
+```text
+/var/lib/libvirt/images/{vm_name}.qcow2
+```
 
-## Smoke tests
+Snapshots are stored under:
 
-The repository includes simple scripts for checking libvirt connectivity, listing VMs, and creating/verifying a JWT. Run them from `Backend/` with the virtual environment active:
+```text
+snapshots/{vm_name}/{snapshot_name}.qcow2
+```
+
+Snapshot operations require the VM to be shut down.
+
+The backend uses shell scripts in `Backend/scripts/` to copy and delete snapshot files. Before using this feature, verify:
+
+- File ownership and permissions
+- `sudo` configuration
+- VM disk locations
+- Snapshot storage capacity
+- Script paths
+- Backup and recovery procedures
+
+## Smoke Tests
+
+The repository includes simple scripts for testing libvirt connectivity, VM listing, and JWT creation.
+
+Run them from the `Backend` directory:
 
 ```bash
 python test_libvirt.py
@@ -243,28 +365,58 @@ python test_list_vm.py
 python test_hash.py
 ```
 
-These are executable smoke-test scripts rather than a complete automated test suite.
+These are basic smoke tests and are not a replacement for a complete automated test suite.
 
-## Development notes
+## Security Considerations
 
-- The backend exposes CORS for `localhost:5173` and `127.0.0.1:5173`.
-- The API has a global JSON exception handler and request timing logs.
-- The database layer uses SQLAlchemy sessions and Alembic configuration is present under `Backend/alembic/`.
-- Several route files and frontend pages are currently empty or placeholders; implement and test them before advertising those features as complete.
-- Avoid committing `.env` files, JWT secrets, credentials, generated logs, or VM disk images.
+HyperVisorX can perform privileged operations such as starting, stopping, destroying, and modifying virtual machines.
 
-## Security considerations
+Before production deployment:
 
-HyperVisorX can start, stop, destroy, and modify virtual machines. Run it only on a trusted management network and apply least-privilege access to libvirt and VM storage. Before production use:
+- Use a strong, private `SECRET_KEY`
+- Never commit `.env` files or credentials
+- Set `DEBUG=false`
+- Restrict CORS to the trusted frontend origin
+- Use HTTPS
+- Protect destructive VM operations with authorization checks
+- Validate VM and snapshot names before using them in filesystem paths
+- Remove hardcoded machine-specific paths
+- Configure least-privilege libvirt and filesystem access
+- Add audit logging for administrative actions
+- Protect the API behind a trusted network or reverse proxy
 
-- Replace development secrets and credentials.
-- Remove hardcoded host-specific paths.
-- Replace broad CORS settings with an explicit frontend origin.
-- Add authorization dependencies to destructive VM and snapshot endpoints.
-- Validate VM and snapshot names before using them in filesystem paths.
-- Add tests for authentication, authorization, error handling, and snapshot safety.
-- Put the API behind TLS and an authenticated reverse proxy where appropriate.
+## Development Notes
+
+The repository currently contains several placeholder or incomplete modules, including some frontend pages and backend route/service files. Features should be tested against the current implementation before being treated as production-ready.
+
+The current implementation also contains machine-specific snapshot script paths. These should be replaced with configurable paths before deploying HyperVisorX to another host.
+
+## Contributing
+
+1. Fork the repository.
+2. Create a feature branch:
+
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+
+3. Make and test your changes.
+4. Commit your changes:
+
+   ```bash
+   git commit -m "Add your change"
+   ```
+
+5. Push the branch:
+
+   ```bash
+   git push origin feature/your-feature
+   ```
+
+6. Open a pull request.
 
 ## License
 
-No license file is currently present in the repository. Add a license before distributing HyperVisorX.
+No license file is currently included in this repository.
+
+Add an appropriate license before distributing or using HyperVisorX as a public or commercial project.
